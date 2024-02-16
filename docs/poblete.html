@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.550">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Alejandra Poblete Pérez">
+<meta name="keywords" content="Pensamiento de Diseño, conocimiento de diseño, razonamiento abductivo, pragmatismo">
+
+<title>IX Jornadas ‘Peirce en Argentina’ - 9&nbsp; Concepciones metodológicas -ergo teóricas- sobre el razonamiento abductivo y el Pensamiento de Diseño (Design Thinking); la abducción recargada</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./ramirez-figueroa.html" rel="next">
+<link href="./paniagua.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cortes-lopez.html">Artículos</a></li><li class="breadcrumb-item"><a href="./poblete.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Concepciones metodológicas -ergo teóricas- sobre el razonamiento abductivo y el Pensamiento de Diseño (<em>Design Thinking</em>); la abducción recargada</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">IX Jornadas ‘Peirce en Argentina’</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Buscar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentación</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Artículos</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cortes-lopez.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">El desarrollo de la semiótica de Charles Peircerealizado por Max Bense en Stuttgart</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./de-boeck.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">El carácter temporal de la mente y la aproximación a lo real en el proceso lógico de investigación</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./gavriloff.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">¿Qué es la hoja de aseveración?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hugueth-vasquez.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Topos de Gráficos Existenciales sobre Superficies de Riemann</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lucifora.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">El impacto de la inteligencia artificial en la semiosis humana desde la teoría de Peirce</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nubiola.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Presentación de Los viajes europeos de Charles S. Peirce, 1870-1883 de Sara Barrena y Jaime Nubiola</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./olezza.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Inteligencia artificial, semiosis y sistemas complejos</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./paniagua.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Aproximación a algunos procesos de mimetismo biológico desde el carácter pragmático de la semiótica peirceana.</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./poblete.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Concepciones metodológicas -ergo teóricas- sobre el razonamiento abductivo y el Pensamiento de Diseño (<em>Design Thinking</em>); la abducción recargada</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ramirez-figueroa.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Peirce y su interpretación anticipatoria del condicional <em>diodórico</em></span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sastre.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Los 10 tipos de signo en C.S. Peirce y su implicación en el proceso de toma de decisiones.</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./toledo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Condiciones para describir la forma lógica de la abducción</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./vargas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">La concepción peirceana de las falacias una presentación preliminar</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./visokolskis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Peirce en torno a mecanismos cognitivos con carga inferencial</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./zelis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">El psicoanálisis como ciencia horótica y c(i)enopitagórica</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#reflexiones-sobre-el-pragmatismo-y-el-pensamiento-del-diseño" id="toc-reflexiones-sobre-el-pragmatismo-y-el-pensamiento-del-diseño" class="nav-link" data-scroll-target="#reflexiones-sobre-el-pragmatismo-y-el-pensamiento-del-diseño">Reflexiones sobre el pragmatismo y el pensamiento del diseño</a>
+  <ul class="collapse">
+  <li><a href="#fenomenología-peirceana-o-faneroscopía" id="toc-fenomenología-peirceana-o-faneroscopía" class="nav-link" data-scroll-target="#fenomenología-peirceana-o-faneroscopía">Fenomenología Peirceana o Faneroscopía</a></li>
+  <li><a href="#sobre-los-estados-de-la-mente-duda---creencia---hábito---acción" id="toc-sobre-los-estados-de-la-mente-duda---creencia---hábito---acción" class="nav-link" data-scroll-target="#sobre-los-estados-de-la-mente-duda---creencia---hábito---acción">Sobre los estados de la mente: duda - creencia - hábito - acción</a></li>
+  <li><a href="#la-sorpresa-el-factor-que-rompe-el-hábito" id="toc-la-sorpresa-el-factor-que-rompe-el-hábito" class="nav-link" data-scroll-target="#la-sorpresa-el-factor-que-rompe-el-hábito">La sorpresa, el factor que rompe el hábito</a></li>
+  <li><a href="#el-musement-la-experiencia-de-la-que-surge-la-abducción" id="toc-el-musement-la-experiencia-de-la-que-surge-la-abducción" class="nav-link" data-scroll-target="#el-musement-la-experiencia-de-la-que-surge-la-abducción">El <em>Musement</em>, la experiencia de la que surge la abducción</a></li>
+  <li><a href="#abducción-pragmatismo-y-diseño" id="toc-abducción-pragmatismo-y-diseño" class="nav-link" data-scroll-target="#abducción-pragmatismo-y-diseño">Abducción, Pragmatismo y Diseño</a></li>
+  <li><a href="#rasgos-que-caracterizan-al-pragmatismo5" id="toc-rasgos-que-caracterizan-al-pragmatismo5" class="nav-link" data-scroll-target="#rasgos-que-caracterizan-al-pragmatismo5">Rasgos que caracterizan al pragmatismo</a></li>
+  </ul></li>
+  <li><a href="#algunas-implicaciones-del-pragmatismo-de-peirce-con-respecto-al-diseño" id="toc-algunas-implicaciones-del-pragmatismo-de-peirce-con-respecto-al-diseño" class="nav-link" data-scroll-target="#algunas-implicaciones-del-pragmatismo-de-peirce-con-respecto-al-diseño">Algunas implicaciones del pragmatismo de Peirce con respecto al diseño</a></li>
+  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cortes-lopez.html">Artículos</a></li><li class="breadcrumb-item"><a href="./poblete.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Concepciones metodológicas -ergo teóricas- sobre el razonamiento abductivo y el Pensamiento de Diseño (<em>Design Thinking</em>); la abducción recargada</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Concepciones metodológicas -ergo teóricas- sobre el razonamiento abductivo y el Pensamiento de Diseño (<em>Design Thinking</em>); la abducción recargada</span></h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Autor/a</div>
+  <div class="quarto-title-meta-heading">Afiliación</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Alejandra Poblete Pérez <a href="mailto:apoblete@utem.cl" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Universidad Tecnológica Metropolitana
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Resumen</div>
+    El razonamiento abductivo es la base del proceso de Pensamiento de Diseño, tal como Lionel J. March lo describiera en la década de 1970, en <em>The Logic of Design</em>. El diseño, como disciplina proyectual, tiene una afinidad epistemológica con los principios pragmatistas, donde los efectos de las cosas pueden tener repercusiones prácticas o experimentables. Desde ellas, el pensamiento se mueve hacia la acción en el mundo real. La abducción, o razonamiento abductivo, es el corazón del pragmatismo (pragmaticismo, en palabras de Peirce), una filosofía del conocimiento, que puede aportar comprensión a los enfoques teóricos del proceso de diseño. Uno de ellos es el concepto de <em>Design Thinking</em>, o Pensamiento de Diseño, donde conviven componentes racionales e intuitivos, que obligan al diseñador a adoptar hipótesis en distintos momentos del proceso. En el presente trabajo se establecerá de qué manera el razonamiento abductivo (retroducción, pensamiento aposicional o razonamiento mediante hipótesis) resulta ser la esencia del Pensamiento de Diseño.
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Palabras clave</div>
+    <p>Pensamiento de Diseño, conocimiento de diseño, razonamiento abductivo, pragmatismo</p>
+  </div>
+</div>
+
+</header>
+
+
+<!-- **Abstract** -->
+<!---->
+<!-- Abductive reasoning is the basis of the Design Thinking process, such as Lionel J. March described it in the 1970s, in *The Logic of Design*. Design, as a project discipline, has an epistemological affinity with pragmatic principles, where the effects of things are what can have practical or experienceable repercussions. From them, thought moves to action in the real world. Abduction, or abductive reasoning, is the heart of pragmatism (Pragmaticism, in Peirce\'s words), a philosophy of knowledge, which can provides understanding to the theoretical approaches of design process. One of these approaches is the concept of *Design Thinking*, where rational and intuitive components coexist, which force the designer to adopt hypotheses at different moments of the process. In this work it will be established how abductive reasoning (retroduction, appositional thinking or reasoning by hypothesis) is the essence of Design Thinking. -->
+<!---->
+<!-- **Keywords:** Design thinking; design knowledge; abductive reasoning; pragmatism -->
+<section id="introducción" class="level1">
+<h1>Introducción</h1>
+<p>En 1965, el diseñador y metodólogo, Bruce Archer, utilizó el concepto de "Pensamiento de Diseño" (<em>Design Thinking</em>), quizás por primera vez, para referirse a la forma en que los diseñadores tratan los problemas de diseño y, en su artículo, refiriéndose a la complejidad de los problemas tecnológicos, escribió:</p>
+<blockquote class="blockquote">
+<p>[…] ha habido un cambio mundial en la énfasis de lo escultórico a lo tecnológico. Se han encontrado maneras de incorporar el conocimiento de la ergonomía, la cibernética, el marketing y la ciencia de la gestión en el pensamiento de diseño. Al igual que con la mayoría de las tecnologías, ha habido una tendencia hacia la adopción de un enfoque de sistemas distinto del de artefactos." <span class="citation" data-cites="cross1984">(<a href="#ref-cross1984" role="doc-biblioref">Cross 1984, 57-58</a>)</span></p>
+</blockquote>
+<p>Años después, el diseñador y teórico John Christopher Jones, también utiliza el término <em>Design Thinking</em> en su artículo <em>The state-of-the-art in design methods</em> <span class="citation" data-cites="broadbent1969">Broadbent y Ward (<a href="#ref-broadbent1969" role="doc-biblioref">1969</a>)</span>:</p>
+<blockquote class="blockquote">
+<p>[…] el objetivo subyacente es abrir el diseño para que otras personas puedan ver lo que está sucediendo y contribuyan con información y reflexiones que están fuera del conocimiento y la experiencia del diseñador. Habiendo visto que el objetivo común de los nuevos métodos es externalizar el pensamiento del diseño, podemos preguntarnos por qué, en este período de la historia, tantas personas han intentado lograrlo. Seguramente la respuesta es que hay una insatisfacción mundial con los métodos tradicionales de diseño. El alto coste de los errores de diseño, especialmente en el caso de los sistemas complejos, es un fuerte incentivo para la externalización del <strong>pensamiento de diseño</strong><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> porque sólo de esta manera ese pensamiento puede ser sometido a crítica y prueba antes de que se cometan errores costosos. <span class="citation" data-cites="broadbent1969">(<a href="#ref-broadbent1969" role="doc-biblioref">Broadbent y Ward 1969, 193</a>)</span></p>
+</blockquote>
+<p>Más tarde Jones, en su libro <em>Design methods: seeds of human futures</em> (1970), elabora la idea de Pensamiento de Diseño de manera sistemática en los capítulos 4, 5 y 6 de la primera parte del libro. Años después, en 1979, en su artículo <em>Designing Designing</em> (Design Studies, 1, vol.&nbsp;1, 31-35), incluye el Pensamiento de Diseño (racional e intuitivo, como lo describe) como una de sus diez principales “preocupaciones” sobre el diseño.</p>
+<p>La noción de Pensamiento de Diseño tiene una larga historia, como un aspecto central del proceso de diseño, y los académicos, o teóricos de la disciplina, lo comprendían, incluso antes que el arquitecto e investigador neozelandés Peter Rowe publicara su libro <em>Design Thinking</em> en 1987, donde recoge y organiza las reflexiones sobre los métodos del diseño, presentando el Pensamiento de Diseño como una herramienta metodológica propia del proceso del proyecto de diseño.</p>
+<p>Estas reflexiones metodológicas habían sido recogidas en 1962<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, donde J. Ch. Jones define los métodos de diseño como “un medio para resolver el conflicto que existe entre el análisis lógico y el pensamiento creativo”. <span class="citation" data-cites="jones1963">(<a href="#ref-jones1963" role="doc-biblioref">Jones y Thornley 1963, 54</a>)</span>. En la siguiente Conferencia va a definirse el proceso de diseño como un “sistema abierto de decisiones” <span class="citation" data-cites="gregory1966">(<a href="#ref-gregory1966" role="doc-biblioref">Gregory 1966, 83</a>)</span>, donde el uso de herramientas metodológicas / teóricas sería ineludible.</p>
+<p>En principio, las visiones y las concepciones teóricas sobre el proceso de diseño plantearon preguntas fundamentales sobre un proceso que es al mismo tiempo creativo y racional (no predeterminado), donde un aspecto esencial es la toma de decisiones.</p>
+<p>El arquitecto y matemático inglés <span class="citation" data-cites="march1976">March (<a href="#ref-march1976" role="doc-biblioref">1976</a>)</span> podría ser el primero (hasta ahora no se encuentra evidencia en contra), entre muchos autores, hasta hoy, en descubrir y difundir las conexiones entre la abducción (producción, como él la denomina en el contexto del proceso del proyecto) y el diseño.</p>
+<p>El objetivo de este trabajo es ir más allá de la utilidad lógica de la abducción, con el fin de abordar aspectos epistemológicos que contribuyen a la reflexión teórica del diseño.</p>
+</section>
+<section id="reflexiones-sobre-el-pragmatismo-y-el-pensamiento-del-diseño" class="level1">
+<h1>Reflexiones sobre el pragmatismo y el pensamiento del diseño</h1>
+<p>Cualquier análisis del pensamiento de Peirce, debe tener en cuenta que él es un lógico, y es desde la lógica que va a abordar preguntas filosóficas, psicológicas y metafísicas. El núcleo de la visión de Peirce es la idea de que existen unas categorías universales en las que las ciencias teóricas (o ciencias de investigación) están organizadas, en una dependencia jerárquica.</p>
+<p>Su filosofía es enteramente sistemática, y es descrita por la investigadora Sara Barrena de la siguiente manera:</p>
+<blockquote class="blockquote">
+<p>En lo más alto se encuentran las matemáticas, a las que pertenecen las categorías. Después de las matemáticas viene la filosofía, que tiene tres ramas principales: fenomenología, ciencias normativas y metafísica, cada una en dependencia de la anterior. Las ciencias normativas son tres a su vez: estética, ética y lógica (o semiótica), derivándose cada una de la anterior, asociadas a tres tipos de bienes (estético, ético y lógico) y que se corresponden con las tres categorías. La tarea de la metafísica sería ‘estudiar los rasgos más generales de la realidad y los objetos reales’. La lógica, […] proporcionaría la estructura para las investigaciones metafísicas, llenas de divisiones triádicas como posibilidad, actualidad, destino; azar, ley, hábito; mente, materia, evolución. <span class="citation" data-cites="peirce1996">Charles S. Peirce (<a href="#ref-peirce1996" role="doc-biblioref">1996</a>)</span></p>
+</blockquote>
+<p>La Figura 1 muestra un mapa Peirceano sobre Ciencias Teóricas, o Ciencias de la Investigación:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./attachments/poblete/media/image1.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Las Ciencias Teóricas según Peirce <span class="citation" data-cites="bergman2000">(<a href="#ref-bergman2000" role="doc-biblioref">Bergman 2000, 31</a>)</span></figcaption>
+</figure>
+</div>
+<p>En este esquema aparecen los procesos lógicos supeditándose a la faneroscopía, o fenomenología Peirceana, donde el “<em>fanerón</em>” (acuñado por Peirce), corresponde a “la totalidad colectiva de todo aquello que de alguna manera o en algún sentido se presenta en la mente, con total independencia de si corresponde o no a algo real” (Peirce, CP 1.284 [1905]; cf.&nbsp;SS 189 [1905])</p>
+<p>Esta concepción tiene directa conexión con las aproximaciones de la disciplina de diseño a la realidad, donde, desde la experiencia sensible, debe interpretar, a través de un proceso de observación y síntesis.</p>
+<section id="fenomenología-peirceana-o-faneroscopía" class="level2">
+<h2 class="anchored" data-anchor-id="fenomenología-peirceana-o-faneroscopía">Fenomenología Peirceana o Faneroscopía</h2>
+<p>El objetivo del estudio de la faneroscopía es establecer los aspectos más generales de la experiencia posible, donde el aspecto más importante es que existen tres (y sólo tres) categorías irreductibles de la experiencia, llamadas Primeridad o sensación, Secundidad o relación y Terceridad o interpretación.</p>
+<blockquote class="blockquote">
+<p><strong>Primeridad</strong>: Aquello que es independientemente de cualquier otra cosa, es decir, es una realidad monádica que prescinde de relaciones. La primeridad se asocia con variedad, indeterminación, actualidad, y presente inmediato.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Secundidad</strong>: Aquello que es relativo a algo, es decir, se refiere a cualquier interacción que envuelve dos elementos. La secundidad tiene que ver con el concepto de experiencia, ya que la experiencia está moldeada por el mundo, del mismo modo que nosotros lo estamos. Se asocia a ideas de causalidad, determinación, y el pasado. También puede ser entendido como oposición y resistencia.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Terceridad</strong>: es la categoría de relaciones triádicas –aquello que tiene la virtud de mediar entre otras dos cosas– con el potencial de establecer conexiones, también entre aquellos elementos pertenecientes a distintos universos (mediación). La terceridad es dominante en las ideas acerca de signo, hábito, significado, entendimiento, desarrollo racional, y el futuro. La terceridad está asociada a un propósito inteligible. Es conceptual, a diferencia de las otras dos categorías (primeridad y segundidad).</p>
+</blockquote>
+<p>La concepción triádica es más eficiente que una diádica del tipo [primero-segundo], [agente-paciente], [sí-no], ya que lo tercero es lo que sirve como un puente entre los otros dos, y los relaciona.</p>
+<p>Estas categorías están claramente presentes en la Teoría de Signos de Peirce, donde afirma:</p>
+<p>“Un signo, o representamen, es algo que está por algo para alguien en algún aspecto o capacidad.” (CP 2.227-229, 1897)</p>
+<blockquote class="blockquote">
+<p>Signo (representamen, el primero)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Objeto (el segundo)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Interpretación (el tercero)</p>
+</blockquote>
+</section>
+<section id="sobre-los-estados-de-la-mente-duda---creencia---hábito---acción" class="level2">
+<h2 class="anchored" data-anchor-id="sobre-los-estados-de-la-mente-duda---creencia---hábito---acción">Sobre los estados de la mente: duda - creencia - hábito - acción</h2>
+<blockquote class="blockquote">
+<p>El objeto de razonar es averiguar algo que no conocemos a partir de lo que ya conocemos. Consecuentemente, razonar es bueno si es tal que da lugar a una conclusión verdadera a partir de premisas verdaderas, y no a otra cosa. La cuestión de la validez es así algo puramente de hecho y no de pensamiento. (CP 5.365)</p>
+</blockquote>
+<p>Así, la razón humana se mueve, según Peirce, desde un “estado de duda” hacia un “estado de creencia,” donde “La irritación de la duda causa una lucha por alcanzar un estado de creencia. Llamaré a esta lucha indagación” (<em>ibid</em>)</p>
+<p>La duda es lo que inicia un proceso necesario y espontáneo: la investigación.</p>
+<p>En la reflexión de Peirce, el pensamiento necesita alcanzar permanentemente un estado de creencia. Peirce habla de “estado de creencia” y no de “conocimiento”, porque la creencia no implica necesariamente conocimiento. El conocimiento se puede obtener luego de un proceso de razonamiento.</p>
+</section>
+<section id="la-sorpresa-el-factor-que-rompe-el-hábito" class="level2">
+<h2 class="anchored" data-anchor-id="la-sorpresa-el-factor-que-rompe-el-hábito">La sorpresa, el factor que rompe el hábito</h2>
+<p>Peirce sugiere que para romper un hábito, no sólo debe existir una duda auténtica, sino que debe generarse sorpresa:</p>
+<blockquote class="blockquote">
+<p>“Porque la creencia, mientras dura, es un hábito fuerte, y como tal, obliga al hombre a creer hasta que alguna sorpresa rompe el hábito. La ruptura de una creencia sólo puede deberse a alguna experiencia novedosa”. (CP 5.524, 1905)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>La verdadera duda siempre tiene un origen externo, por lo general de sorpresa, y que es tan imposible para un hombre crear en sí mismo una verdadera duda por un acto de la voluntad que bastaría para imaginar la condición de un teorema matemático, como sería para él darse una auténtica sorpresa por un simple acto de voluntad. (CP 5.443, 1905)</p>
+</blockquote>
+<p>La sorpresa sería, en última instancia, la detonante de cualquier investigación. Sería, ni más ni menos que la detonadora del razonamiento, y según Peirce éste es el razonamiento abductivo.</p>
+<p>Para llevar a cabo ese análisis, es necesario revisar otro aspecto del sistema Peirceano.</p>
+</section>
+<section id="el-musement-la-experiencia-de-la-que-surge-la-abducción" class="level2">
+<h2 class="anchored" data-anchor-id="el-musement-la-experiencia-de-la-que-surge-la-abducción">El <em>Musement</em>, la experiencia de la que surge la abducción</h2>
+<p>En la epistemología Peirciana, los universos de la experiencia, los estados de la mente y los modelos de razonamiento forman un sistema armónico, interdependiente, dinámico y continuo. Por lo tanto, todos los aspectos mencionados interactúan en el proceso de razonamiento sintético.</p>
+<p>El estado inicial de la mente, necesario para la sorpresa y la explosión del proceso de pensamiento que impulsa la acción, es, en palabras de Peirce, el <em>Musement</em>.</p>
+<blockquote class="blockquote">
+<p>[…]sube al bote del <em>Musement</em>, empújalo en el lago del pensamiento, y deja que la brisa del cielo empuje tu navegación. Con tus ojos abiertos, despierta a lo que está a tu alrededor o dentro de ti, y entabla conversación contigo mismo; para eso es toda meditación" (CP 6.461, 1908)</p>
+</blockquote>
+<p>El tipo de razonamiento abductivo fluye de la experiencia del <em>Musement</em> (reflexión, meditación), y forma la experiencia de la cual surge la abducción.</p>
+<p>El <em>Musement</em> es un dejar libre a la mente, que vaya de una cosa a otra y podría tomar distintas formas:</p>
+<blockquote class="blockquote">
+<p>[…] puede tomar la forma de contemplación estética, o bien la de construir distantes castillos […], o la de considerar alguna maravilla en uno de los Universos, o alguna conexión entre dos de los tres, con la especulación acerca de su causa (<em>ibid</em>)</p>
+</blockquote>
+<p>Peirce no promueve el <em>Musement</em> como un método de análisis lógico, sino más bien como un estado mental del cual pueden surgir, y van surgiendo, sugerencias y conjeturas, algunas de las cuales pueden ser creíbles. Lo que no implica que no se realice un análisis a posteriori.</p>
+</section>
+<section id="abducción-pragmatismo-y-diseño" class="level2">
+<h2 class="anchored" data-anchor-id="abducción-pragmatismo-y-diseño">Abducción, Pragmatismo y Diseño</h2>
+<p>Peirce propone el concepto de abducción (una forma de inferencia cuyo resultado agrega nuevas ideas al conocimiento) como una herramienta metodológica para la investigación científica:</p>
+<blockquote class="blockquote">
+<p>La abducción es el proceso de formar una hipótesis explicativa. Es la única operación lógica que introduce alguna idea nueva; pues la inducción no hace más que determinar un valor, y la deducción desarrolla meramente las consecuencias necesarias de una pura hipótesis. (CP 5.171, 1903)</p>
+</blockquote>
+<p>Cualquier investigación comienza con la observación de fenómenos, que luego se ponderan para hacer una conjetura, la que podría ser una posible explicación. Esa hipótesis, indispensable para iniciar la investigación, puede ser refutada durante el camino hacia su confirmación, pero sirve al propósito de iniciar un proceso. Sin ella, el proceso no sería posible.</p>
+<p>Es decir, a través del proceso de razonamiento abductivo, solo se llega a una conclusión probable, pero que el investigador considerará momentáneamente aceptable. Es este carácter intuitivo del razonamiento abductivo, y no la probabilidad real de la conclusión, es lo que le da validez.</p>
+<p>Para Peirce, los tres tipos de razonamiento (deducción, inducción e hipótesis) son tres etapas en el método de la investigación lógica, donde la hipótesis, ahora llamada abducción, es realmente la primera etapa.</p>
+<p>La abducción es el proceso de formar una hipótesis explicativa y su forma silogística evoluciona a la siguiente forma lógica:</p>
+<blockquote class="blockquote">
+<p>Se observa el hecho sorprendente <span class="math inline">\(C\)</span>;</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Pero si <span class="math inline">\(A\)</span> fuera verdad, <span class="math inline">\(C\)</span> sería una cuestión normal.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Por lo tanto, hay razones para sospechar que <span class="math inline">\(A\)</span> es verdad.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>La hipótesis se da cuando encontramos alguna circunstancia muy curiosa, que se explicaría por la suposición de que fuera un caso de cierta regla general, y en consecuencia adoptamos esa suposición. O, cuando constatamos que en ciertos aspectos dos objetos guardan una marcada semejanza, e inferimos que se asemejan entre sí notablemente en otros aspectos. (CP 2.619-644, 1878)</p>
+</blockquote>
+<p>El razonamiento abductivo es un tipo de razonamiento sintético, que une dos aspectos: una posible explicación y la sugerencia de una hipótesis a demostrar. Entonces, la noción de abducción está íntimamente ligada al pragmatismo, que es, en definitiva, la lógica de las hipótesis, o lógica abductiva, cuyo principio es la máxima pragmática:</p>
+<p>“Consideremos qué efectos, que puedan tener concebiblemente repercusiones prácticas, concebimos que tiene el objeto de nuestra concepción. Nuestra concepción de estos efectos es pues el todo de nuestra concepción del objeto.” (CP 5.388-410, 1878)</p>
+<p>El pragmatismo es esencialmente una teoría del significado, una filosofía del conocimiento, donde “saber” es “hacer”. En última instancia, desde la perspectiva pragmática, el conocimiento se origina en la interacción con el mundo, considerando al hombre como un ser activo que intenta comprender el mundo.</p>
+</section>
+<section id="rasgos-que-caracterizan-al-pragmatismo5" class="level2">
+<h2 class="anchored" data-anchor-id="rasgos-que-caracterizan-al-pragmatismo5">Rasgos que caracterizan al pragmatismo<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></h2>
+<p><strong>Actitud naturalista</strong>: El fenómeno del conocimiento es un acontecimiento del reino de la naturaleza. El sujeto del conocimiento no es un “yo pensante” sino un ser natural y social que está inmerso activamente en la realidad que investiga.</p>
+<p><strong>Primacía de la práctica</strong>: El marco general para una teoría pragmaticista del conocimiento es la actividad de los sujetos, esto es, su modo de relación con la realidad, donde el conocimiento es una estrategia, hecha de operaciones psicofísicas (sentir, entender, recordar, manipular, medir…) y simbólicas (comparar, generalizar, descomponer, inferir…), encaminada a la acción y coordinada con sus fines.</p>
+<p>Según esto, la acción es concebida como:</p>
+<blockquote class="blockquote">
+<p><strong>Condición</strong> previa para el conocimiento</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Medio</strong> para alcanzar el conocimiento</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Resultado</strong> de la obtención de determinado conocimiento</p>
+</blockquote>
+<p>Así, el método, el alcance y la justificación del conocimiento obedecen a los siguientes principios:</p>
+<p><strong>Empirismo</strong>: Las “repercusiones prácticas” son efectos experimentables y, por tanto, relevantes para la acción del sujeto en algún contexto práctico imaginable. Esta es la Función Prospectiva del conocimiento (anticipación de la experiencia posible con vistas a la acción).</p>
+<p><strong>Fallibilismo</strong>: Tanto la creencia como la duda son estados suscitados por una determinada relación del individuo con su entorno, relación cuya índole es primariamente práctica y no abstracta o intelectual. Puesto que las “repercusiones prácticas” que especifican el “significado de una concepción” o concepto son potencialmente indefinidas, la verificación racional de nuestras creencias es siempre provisional y está abierta a ulterior investigación.</p>
+<p><strong>Anti-fundamentalismo</strong>: El conocimiento no puede reconstruirse lógicamente en la forma de una secuencia de inferencias a partir de unas primeras verdades incuestionables. La noción fundamentalista, está asociada a algún tipo de garantía metafísica en relación con el conocimiento, es decir, ignora la dinámica real de las creencias y los fines de su formación y su evaluación por parte del sujeto.</p>
+<p><strong>Inmanentismo</strong>: La noción de verdad (problema epistemológico central del pragmatismo), sea o no alcanzable, sólo tiene sentido como un tipo de creencia, es inmanente (o interna) al plano de las prácticas cognoscitivas. La verdad de una creencia no puede ser independiente de su valor como guía eficaz de las acciones y, por tanto, de su utilidad en términos de deseos y necesidades de los sujetos.</p>
+</section>
+</section>
+<section id="algunas-implicaciones-del-pragmatismo-de-peirce-con-respecto-al-diseño" class="level1">
+<h1>Algunas implicaciones del pragmatismo de Peirce con respecto al diseño</h1>
+<p>La revisión del sistema conceptual Peirceano, particularmente el pragmatismo, abre un interesante campo de reflexión sobre los aspectos esenciales que caracterizan (no determinan) la actividad de diseño.</p>
+<p>Diseñar es establecer un “nuevo orden” a partir de “lo que es” hacia “lo que debe ser”, donde este “nuevo orden” se expresa o materializa en un artefacto o sistema (físico o virtual).</p>
+<p>En este proceso de cambio y toma de decisiones están involucrados (y dosificados) componentes racionales e intuitivos.</p>
+<p>Las tres categorías o dimensiones de la experiencia (percepción, relación y conceptualización) surgen de la acción (o interacción) con la realidad, y, por lo tanto, derivan de su significado. Sólo desde el significado es posible establecer un “nuevo orden”, cambiar el mundo, es decir, diseñar.</p>
+<p>De acuerdo con esto, y como primeras conclusiones, aquí hay algunas preguntas y respuestas:</p>
+<p><strong>¿Cómo obtiene el diseñador el conocimiento?</strong></p>
+<p>El pragmatismo, como teoría del conocimiento, sitúa al diseñador frente a la complejidad, variedad y extensión del mundo, donde establecerá un “nuevo orden”, en una posición activa y abierta para interactuar con la realidad, desde donde construirá creencias, imaginará nuevas realidades e instilará nuevos significados.</p>
+<p>En este sentido, el <em>musement</em>, como estado mental y actitud frente a esta realidad que pretende investigar (y cambiar), describe un estado receptivo y sensible que fomenta el descubrimiento en el diseñador, primero desde su intuición, que es válido como instrumento para movilizar la investigación.</p>
+<p><strong>¿Qué preguntas se hace a sí mismo y cómo encuentra las respuestas?</strong></p>
+<p>Las preguntas surgen naturalmente de la duda y activan la generación de una hipótesis. El razonamiento por hipótesis (abducción), un aspecto clave del pragmatismo, es una herramienta metodológica (investigativa) y epistemológica (reflexiva) eficiente. Las preguntas que un diseñador debe hacerse frente a un encargo concreto contienen y expresan la hipótesis que pone en marcha el proceso de diseño, y que, paso a paso, permite alcanzar creencias para tomar decisiones y concretar en un artefacto o sistema (proyecto).</p>
+<p>Las respuestas, en cualquier caso, nunca serán definitivas. Cualquier respuesta, materializada en una decisión de diseño puede ser reconsiderada por una nueva hipótesis y, por lo tanto, generar nuevas respuestas. Este falibilismo del proceso muestra los infinitos caminos posibles en el proceso de diseño.</p>
+<p><strong>¿Qué tipo de conocimiento es el conocimiento de diseño?</strong></p>
+<p>El conocimiento de diseño será el que sirva a los fines del proyecto y tiene una estrecha relación con las preguntas y respuestas anteriores. La reflexión de este artículo es parte del conocimiento de (y para) el diseño y tiene que ver con una “conciencia” permanente del proceso y sus aplicaciones.</p>
+<p>De esta manera también, el diseñador, en su objetivo permanente de mejorar e innovar, se pone en una nueva y necesaria interacción (relación) con los artefactos que crea, para que, a partir de esta experiencia, puedan sugerir nuevas posibles funciones y experiencias, planificadas por el diseño y posteriormente percibidas (o esperadas) por el usuario.</p>
+<p>En última instancia, el pragmatismo (sus concepciones y lógicas) hace posible lidiar con los componentes racionales e intuitivos del proceso de investigación, y ofrecer caminos de descubrimiento cuyo valor reside en la interacción del investigador, o diseñador, con el mundo. Desde aquí, pueden surgir nuevas maneras de abordar no solo el proceso de diseño, sino que, un arco más amplio: el Pensamiento de Diseño, la Investigación de Diseño y la Educación de Diseño.</p>
+<p>Esta es una indagación aún en curso.</p>
+<!-- # Bibliografía -->
+</section>
+<section id="referencias" class="level1 unnumbered">
+<h1 class="unnumbered">Referencias</h1>
+<!--
+Archer L. B. & Council of Industrial Design (Great Britain). (1965). *Systematic method for designers* (Rev. and with additional material). Council of Industrial Design.\
+en: Cross N. (1984). *Developments in design methodology*. Wiley.
+
+Barrena, S. (1996), *Charles S. Peirce, Un argumento olvidado en favor de la realidad de Dios. Introducción, traducción y notas*, Trabajo de Investigación Doctoral, Universidad de Navarra, \[archivo PDF\] \[en línea\] \[Navarra, España\] \[mayo 2023\], disponible en: https://www.unav.es/gep/Barrena/Sara.pdf
+
+Bergman M. (2000). *Meaning and mediation : toward a communicative interpretation of peirce\'s theory of signs*. Dept. of Communication University of Helsinki Finland.
+
+Broadbent G. Ward A. & Portsmouth College of Technology School of Architecture. (1969). *Design methods in architecture* (1. ed.). Lund Humphries for the Architectural Association.
+
+Chow, R. (2009).  *Abduction Revisited.*\
+en: Verbeke J. Jakimowicz A. Hogeschool voor Wetenschap & Kunst School of Architecture Sint-Lucas & Chalmers University of Technology. (2009). *Communicating (by) design : proceedings of the colloquium \"communicating (by) design\" at sint-lucas brussels from 15th - 17th april 2009*. Hogeschool voor Wetenschap & Kunst ; School of Architecture Sint-Lucas ; Chalmers University of Technology.
+
+Cross N. (n.d.). Designerly ways of knowing. *Design Studies* 221--227. <https://doi.org/10.1016/0142-694X(82)90040-0>
+
+Cross N. (1984). *Developments in design methodology*. Wiley.
+
+Cross N. (2001). Designerly ways of knowing: design discipline versus design science. *Design Issues* 49--55.
+
+Cross, N. (2007) *From a Design Science to a Design Discipline: Understanding Designerly Ways of Knowing and Thinking*.\
+en: Michel R. & Board of International Research in Design. (2007). *Design research now : essays and selected projects*. Birkhäuser. Retrieved July 15 2023 from http://www.degruyter.com/isbn/9783764384722.
+
+Cross N. Dorst K. Roozenburg N. Technische Hogeschool Delft Faculty of Industrial Design Engineering & Workshop of Research in Design Thinking. (1992). *Research in design thinking : proceedings of a workshop meeting held at the faculty of industrial design engineering delft university oof technology the netherlands may 29-31 1991*. Delft University Press.
+
+Cross N. (2007). *Designerly ways of knowing*. Birkhäuser ; Springer distributor.
+
+Gregory, S. A. (Ed.) (1966). *The design method*, Papers presented at the The design method Conference, London; UK.
+
+Jones, J. C., & Thornley, D. G. (1963). *Conference on Design Methods*. Papers presented at the Conference on Systematic Intuitive Methods in Engineering, Industrial Design Architecture and Communications, London; UK
+
+March, L. J. (1976) *The Logic of Design and the Question of Value*, en March, L. J.(ed.) The Architecture of Form, Cambridge University Press, Cambridge, UK\
+en: Cross N. (1984). *Developments in design methodology*. Wiley.
+
+Muñoz Jacobo & Velarde Lombraña Julián. (2000). *Compendio de epistemología*. Trotta.
+
+Peirce, C. S. (1978). *Collected papers.* Cambridge: Belknap Press of Harvard University Press.
+
+Vries M. J. de Cross N. Grant D. P. North Atlantic Treaty Organization Scientific Affairs Division & NATO Advanced Research Workshop on Design Methodology and Relationships With Science. (1993). *Design methodology and relationships with science*. Kluwer Academic.
+-->
+<!-- [^1]: Lionel J. March (1934-2018), matemático, arquitecto y artista digital británico, quizás más conocido por su pionero arte asistido por ordenador en arquitectura. Fue el editor general de los 12 volúmenes de *Cambridge Architectural and Urban Studies*, y editor fundador de la revista *Environment and Planning B: Planning and Design.* -->
+<!-- [^2]: Peirce acuña los términos \"retroducción\" o razonamiento hacia atrás y \"abducción\" para referirse al proceso de adopción de hipótesis. -->
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-archer1965" class="csl-entry" role="listitem">
+Archer, L. Bruce. 1965. <em>Systematic <span>Method</span> for <span>Designers</span></em>. <span>Council of Industrial Design</span>. <a href="https://books.google.com?id=3sG7nQAACAAJ">https://books.google.com?id=3sG7nQAACAAJ</a>.
+</div>
+<div id="ref-bergman2000" class="csl-entry" role="listitem">
+Bergman, Mats. 2000. <em>Meaning and <span>Mediation</span>: <span>Toward</span> a <span>Communicative Interpretation</span> of <span>Peirce</span>’s <span>Theory</span> of <span>Signs</span></em>. <span>Department of Communication, University of Helsinki, Finland</span>. <a href="https://books.google.com?id=Dm_CAAAACAAJ">https://books.google.com?id=Dm_CAAAACAAJ</a>.
+</div>
+<div id="ref-broadbent1969" class="csl-entry" role="listitem">
+Broadbent, Geoffrey, y Anthony Ward. 1969. <em>Design <span>Methods</span> in <span>Architecture</span></em>. <span>Lund Humphries</span>. <a href="https://books.google.com?id=tIY_jwEACAAJ">https://books.google.com?id=tIY_jwEACAAJ</a>.
+</div>
+<div id="ref-chow2009" class="csl-entry" role="listitem">
+Chow, Rosan. 2009. <span>«Abduction <span>Revisited</span>»</span>. En <em>Communicating (by) Design : Proceedings of the Colloquium "Communicating (by) Design" at Sint-Lucas Brussels from 15th - 17th April 2009</em>. <span>Chalmers University of Technology</span>.
+</div>
+<div id="ref-cross1982" class="csl-entry" role="listitem">
+Cross, Nigel. 1982. <span>«Designerly Ways of Knowing»</span>. <em>Design Studies</em> 3 (4): 221-27. <a href="https://doi.org/10.1016/0142-694X(82)90040-0">https://doi.org/10.1016/0142-694X(82)90040-0</a>.
+</div>
+<div id="ref-cross1984" class="csl-entry" role="listitem">
+———, ed. 1984. <em>Developments in <span>Design Methodology</span></em>. 1st edition. <span>Chichester</span>: <span>Wiley</span>.
+</div>
+<div id="ref-cross2001" class="csl-entry" role="listitem">
+———. 2001. <span>«Designerly <span>Ways</span> of <span>Knowing</span>: <span>Design Discipline</span> versus <span>Design Science</span>»</span>. <em>Design Issues</em> 17 (3): 49-55. <a href="https://www.jstor.org/stable/1511801">https://www.jstor.org/stable/1511801</a>.
+</div>
+<div id="ref-cross2007" class="csl-entry" role="listitem">
+———. 2007. <span>«From a <span>Design Science</span> to a <span>Design Discipline</span>: <span>Understanding Designerly Ways</span> of <span>Knowing</span> and <span>Thinking</span>»</span>. En <em>Design <span>Research Now</span>: <span>Essays</span> and <span>Selected Projects</span></em>, editado por Ralf Michel, 41-54. Board of <span>International Research</span> En <span>Design</span>. <span>Basel</span>: <span>Birkhäuser</span>. <a href="https://doi.org/10.1007/978-3-7643-8472-2_3">https://doi.org/10.1007/978-3-7643-8472-2_3</a>.
+</div>
+<div id="ref-cross1992" class="csl-entry" role="listitem">
+Cross, Nigel, Kees Dorst, y Norbert Roozenburg. 1992. <em>Research in <span>Design Thinking</span>: <span>Proceedings</span> of a <span>Workshop Meeting Held</span> at the <span>Faculty</span> of <span>Industrial Design Engineering</span>, <span>Delft University Oof Technology</span>, the <span>Netherlands</span>, <span>May</span> 29-31, 1991</em>. <span>Delft University Press</span>. <a href="https://books.google.com?id=lUWsAAAACAAJ">https://books.google.com?id=lUWsAAAACAAJ</a>.
+</div>
+<div id="ref-gregory1966" class="csl-entry" role="listitem">
+Gregory, S. A., ed. 1966. <em>The <span>Design Method</span></em>. <span>Boston, MA</span>: <span>Springer US</span>. <a href="https://doi.org/10.1007/978-1-4899-6331-4">https://doi.org/10.1007/978-1-4899-6331-4</a>.
+</div>
+<div id="ref-jones1963" class="csl-entry" role="listitem">
+Jones, J. Christopher, y D. G. Thornley, eds. 1963. <em>Conference on <span>Design Methods</span></em>. <span>Oxford</span>: <span>Pergamon Press</span>.
+</div>
+<div id="ref-march1976" class="csl-entry" role="listitem">
+March, Lionel. 1976. <span>«The <span>Logic</span> of <span>Design</span> and the <span>Question</span> of <span>Value</span>»</span>. En <em>The <span>Architecture</span> of <span>Form</span></em>, 1-40. <span>Cambridge</span>: <span>Cambridge University Press</span>.
+</div>
+<div id="ref-peirce1996" class="csl-entry" role="listitem">
+Peirce, Charles S. 1996. <span>«Un Argumento Olvidado En Favor de La Realidad de <span>Dios</span>»</span>.
+</div>
+<div id="ref-peirce1931" class="csl-entry" role="listitem">
+Peirce, Charles S. 1931. <em>Collected Papers</em>. <span>Cambridge: Belknap Press of Harvard University Press</span>.
+</div>
+<div id="ref-velardelombrana2000" class="csl-entry" role="listitem">
+Velarde Lombraña, Julián, y Jacobo Muñoz Veiga. 2000. <em>Compendio de epistemología</em>. <a href="https://dialnet.unirioja.es/servlet/libro?codigo=297989">https://dialnet.unirioja.es/servlet/libro?codigo=297989</a>.
+</div>
+<div id="ref-devries1993" class="csl-entry" role="listitem">
+Vries, M. J. de. 1993. <span>«Design <span>Methodology</span> and <span>Relationships</span> with <span>Science</span>: <span>Introduction</span>»</span>. En <em>Design <span>Methodology</span> and <span>Relationships</span> with <span>Science</span></em>, editado por M. J. de Vries, N. Cross, y D. P. Grant, 1-14. <span>NATO ASI Series</span>. <span>Dordrecht</span>: <span>Springer Netherlands</span>. <a href="https://doi.org/10.1007/978-94-015-8220-9_1">https://doi.org/10.1007/978-94-015-8220-9_1</a>.
+</div>
+</div>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>En el texto original, en inglés se lee “design thinking”. Las negritas son de esta investigadora.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>La primera conferencia sobre métodos de diseño es organizada por J. Christopher Jones y Peter Slann en el <em>Department of Aeronautics, Imperial College, London</em>, 19-21 de septiembre de 1962 <span class="citation" data-cites="jones1963">(<a href="#ref-jones1963" role="doc-biblioref">Jones y Thornley 1963</a>)</span>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Extraído de <span class="citation" data-cites="velardelombrana2000">(<a href="#ref-velardelombrana2000" role="doc-biblioref">Velarde Lombraña y Muñoz Veiga 2000, 462-63</a>)</span><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+<p>Esta página es distribuida por la Universidad de Navarra y el GEP <a href="https://www.unav.es/gep/" class="uri">https://www.unav.es/gep/</a></p></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiado");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiado");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./paniagua.html" class="pagination-link" aria-label="Aproximación a algunos procesos de mimetismo biológico desde el carácter pragmático de la semiótica peirceana.">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Aproximación a algunos procesos de mimetismo biológico desde el carácter pragmático de la semiótica peirceana.</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./ramirez-figueroa.html" class="pagination-link" aria-label="Peirce y su interpretación anticipatoria del condicional *diodórico*">
+        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Peirce y su interpretación anticipatoria del condicional <em>diodórico</em></span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

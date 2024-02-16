@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.550">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ariel Toledo Soto">
+
+<title>IX Jornadas ‘Peirce en Argentina’ - 12&nbsp; Condiciones para describir la forma lógica de la abducción</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./vargas.html" rel="next">
+<link href="./sastre.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cortes-lopez.html">Artículos</a></li><li class="breadcrumb-item"><a href="./toledo.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Condiciones para describir la forma lógica de la abducción</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">IX Jornadas ‘Peirce en Argentina’</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Buscar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentación</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Artículos</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cortes-lopez.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">El desarrollo de la semiótica de Charles Peircerealizado por Max Bense en Stuttgart</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./de-boeck.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">El carácter temporal de la mente y la aproximación a lo real en el proceso lógico de investigación</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./gavriloff.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">¿Qué es la hoja de aseveración?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hugueth-vasquez.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Topos de Gráficos Existenciales sobre Superficies de Riemann</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lucifora.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">El impacto de la inteligencia artificial en la semiosis humana desde la teoría de Peirce</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nubiola.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Presentación de Los viajes europeos de Charles S. Peirce, 1870-1883 de Sara Barrena y Jaime Nubiola</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./olezza.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Inteligencia artificial, semiosis y sistemas complejos</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./paniagua.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Aproximación a algunos procesos de mimetismo biológico desde el carácter pragmático de la semiótica peirceana.</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./poblete.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Concepciones metodológicas -ergo teóricas- sobre el razonamiento abductivo y el Pensamiento de Diseño (<em>Design Thinking</em>); la abducción recargada</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ramirez-figueroa.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Peirce y su interpretación anticipatoria del condicional <em>diodórico</em></span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sastre.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Los 10 tipos de signo en C.S. Peirce y su implicación en el proceso de toma de decisiones.</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./toledo.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Condiciones para describir la forma lógica de la abducción</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./vargas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">La concepción peirceana de las falacias una presentación preliminar</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./visokolskis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Peirce en torno a mecanismos cognitivos con carga inferencial</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./zelis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">El psicoanálisis como ciencia horótica y c(i)enopitagórica</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#el-fenómeno-abductivo" id="toc-el-fenómeno-abductivo" class="nav-link" data-scroll-target="#el-fenómeno-abductivo">El fenómeno abductivo</a></li>
+  <li><a href="#un-nuevo-tipo-de-inferencia" id="toc-un-nuevo-tipo-de-inferencia" class="nav-link" data-scroll-target="#un-nuevo-tipo-de-inferencia">¿Un nuevo tipo de inferencia?</a></li>
+  <li><a href="#la-estructura-de-la-abducción-según-kapitan" id="toc-la-estructura-de-la-abducción-según-kapitan" class="nav-link" data-scroll-target="#la-estructura-de-la-abducción-según-kapitan">La estructura de la abducción según Kapitan</a></li>
+  <li><a href="#el-modelo-akm-y-la-abducción-como-retroducción" id="toc-el-modelo-akm-y-la-abducción-como-retroducción" class="nav-link" data-scroll-target="#el-modelo-akm-y-la-abducción-como-retroducción">El modelo AKM y la abducción como retroducción</a></li>
+  <li><a href="#conclusión" id="toc-conclusión" class="nav-link" data-scroll-target="#conclusión">Conclusión</a></li>
+  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cortes-lopez.html">Artículos</a></li><li class="breadcrumb-item"><a href="./toledo.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Condiciones para describir la forma lógica de la abducción</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Condiciones para describir la forma lógica de la abducción</span></h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Autor/a</div>
+  <div class="quarto-title-meta-heading">Afiliación</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Ariel Toledo Soto <a href="mailto:ariel.toledo.s@ug.uchile.cl" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Universidad de Chile
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Resumen</div>
+    En este trabajo se buscará exponer cuáles son las condiciones de un modelo lógico para que este dé cuenta de la abducción en térmi- nos peirceanos. Con esta finalidad, daremos un breve recorrido por lo que considera Peirce como inferencia abductiva. Luego, se expondrá la tesis de Kapitan respecto a la estructura de la inferencia abductiva como un antecedente a la hora de realizar el análisis correspondien- te. Finalmente, se expondrá de manera breve el modelo AKM y su relación con la exposición de este trabajo.
+  </div>
+</div>
+
+
+</header>
+
+
+<section id="introducción" class="level1">
+<h1>Introducción</h1>
+<p>Durante las últimas décadas el concepto de abducción ha suscitado gran interés en distintas áreas del conocimiento, lo que ha influenciado un creciente desarrollo del estudio de la obra del filósofo americano Charles Sanders Peirce (1839-1914), quien acuña el término de abducción, haciendo referencia a un proceso inferencial de pleno derecho, situado junto a la inducción y a la deducción.</p>
+<p>El propósito de este texto es revisar cuáles son los aspectos estructurales de la inferencia abductiva, y cuáles son los requerimientos de un modelo -sistema- lógico que posea la misma estructura de lo descrito por Peirce respecto al fenómeno abductivo.</p>
+</section>
+<section id="el-fenómeno-abductivo" class="level1">
+<h1>El fenómeno abductivo</h1>
+<p>Una de las características claves de la abducción tal como la presenta Peirce, es su capacidad explicativa frente a un hecho sorprendente. En este sentido, el fenómeno abductivo ocurre de manera cognitiva en un individuo, el cual mediante una relación de semejanza entre el hecho sorprendente y los casos previos, se permite brindar y seleccionar una explicación que no se permitía con su conocimiento inicial. Esto se ve claramente en la formulación desarrollada por el autor:</p>
+<blockquote class="blockquote">
+<p>“The surprising fact, C, is observed; But if A were true, C would be a matter of course, Hence, there is reason to suspect that A is true.” (CP 5.189)</p>
+</blockquote>
+<p>Esta es la estructura fundamental de la abducción de Peirce. A lo que llamaremos esquema de Peirce. Cabe mencionar que el esquema nos propor- ciona una estructura basada en una ontología de hechos, lo que expresa de mejor manera de que nos encontramos frente a una situación de percepción de un fenómeno por parte de un sujeto.</p>
+</section>
+<section id="un-nuevo-tipo-de-inferencia" class="level1">
+<h1>¿Un nuevo tipo de inferencia?</h1>
+<blockquote class="blockquote">
+<p>Cabe destacar el desarrollo que tuvo el concepto de abducción durante el crecimiento de la obra de Peirce. Comenzando con la identificación de la palabra hipótesis a este tipo de inferencia sintética. El filósofo americano explica muy bien el ordenamiento que, según él, posee dicha inferencia con respecto a forma silogística de sus pares: la deducción e inducción. De esta forma, nos brinda un ejemplo:</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>” <strong>DEDUCTION.</strong></p>
+<p><strong><em>Rule:</em></strong>All the beans from this bag are white.</p>
+<p><strong><em>Case:</em></strong>These beans are from this bag.</p>
+<p><span class="math inline">\(\therefore\)</span> <strong><em>Result:</em></strong>These beans are white.</p>
+<p><strong>INDUCTION.</strong></p>
+<p><strong><em>Case:</em></strong>These beans are from this bag.</p>
+<p><strong><em>Result:</em></strong>These beans are white.</p>
+<p><span class="math inline">\(\therefore\)</span> <strong><em>Rule:</em></strong>All the beans from this bag are white.</p>
+<p><strong>HYPOTHESIS.</strong></p>
+<p><strong><em>Rule:</em></strong>All the beans from this bag are white.</p>
+<p><strong><em>Result:</em></strong>These beans are white.</p>
+<p><span class="math inline">\(\therefore\)</span> <strong><em>Case:</em></strong>These beans are from this bag.”(CP 2.623)</p>
+</blockquote>
+<p>En este sentido, la alteración del orden de los enunciados afectaría el carácter inferencial del razonamiento. En este sentido, no sería la forma lógica, más bien sería el orden de la información mediante enunciados lo que ca- racteriza al razonamiento abductivo. Cabe mencionar, que la caracterización de la abducción no descansa únicamente en una alteración de los enunciados de una inferencia deductiva.</p>
+<p>Otra descripción es la presente:</p>
+<blockquote class="blockquote">
+<p>“Abduction is the process of forming an explanatory hypothesis. It is the only logical operation which introduces any new idea; for induction does nothing but determine a value, and deduction merely evolves the necessary consequences of a pure hypothesis. Deduction proves that something <strong>must be</strong>; Induction shows that something <strong>actually is</strong> operative; Abduction merely suggests that something <strong>may be</strong>. Its only justification is that from its suggestion deduction can draw a prediction which can be tested by induction, and that, if we are ever to learn anything or to understand phenomena at all, it must be by abduction that this is to be brought about.”(CP 5.171)</p>
+</blockquote>
+<p>El autor caracteriza a la abducción como el único razonamiento que in- corpora nuevas ideas. Esto en contraste con sus pares -la inducción y la deducción-. De esta forma, lo que la deducción tiene de seguridad lo pierde en amplitud; a su inversa, la abducción pierde seguridad pero gana en am- pliación. Incluso esta característica permea lo que Peirce considera como la labor del lógico:</p>
+<blockquote class="blockquote">
+<p>“I think logicians should have two principal aims: 1st, to bring out the amount and kind of <strong>security</strong> (approach to certainty) of each kind of reasoning, and 2nd, to bring out the possible and esperable uberty, or value in productiveness, of each kind.”(CP 8.384)</p>
+</blockquote>
+<p>Expuesto de esta manera, podemos notar que hay una relación de com- patibilidad y complementación de los distintos tipos de inferencia. Así, no deberíamos entender las distintas inferencias separadas entre sí, sin relación alguna entre ellas. Pues un razonamiento puede contener distintas inferen- cias que lo constituyen, incluso un argumento se puede construir en base a distintos tipos de inferencias.</p>
+</section>
+<section id="la-estructura-de-la-abducción-según-kapitan" class="level1">
+<h1>La estructura de la abducción según Kapitan</h1>
+<p>Tomis Kapitan presenta un análisis bastante interesante respecto a cri- terios estructurales, que servirían de requerimiento para dar cuenta de la abducción, tal como él considera que Peirce la describe. <span class="citation" data-cites="kapitan1997">Kapitan (<a href="#ref-kapitan1997" role="doc-biblioref">1997</a>)</span> nos presenta cuatro tesis que serían clave y, a su vez, estructuran el trabajo rea- lizado por el autor. Dichas tesis, son las que siguen:</p>
+<ul>
+<li>Tesis inferencial: la abducción es un proceso inferencial. (CP 5.188-189, 7.202)</li>
+<li>Tesis de objetivo: la abducción científica tiene un doble objetivo. Por una parte, generar nuevas hipótesis. Por otra, seleccionar las mejores para su posterior análisis. (CP 6.525)</li>
+<li>Tesis de comprensión: la abducción científica incluye todas las opera- ciones por las que se generan las teorías. (CP 5.590)</li>
+<li>Tesis de autonomía: La abducción es, o incluye, un razonamiento dife- rente e irreducible tanto a deducción como a inducción. (CP 5.146)</li>
+</ul>
+<p>La idea aqúı es que la abducción puede ser entendida como un fenómeno cognitivo, que puede ser descrito mediante modelos lógicos que tienen en consideración las tesis presentadas por el autor. Lo importante radica en la fuerza con la que se toman estos enunciados. Pues como veremos, para ciertos contextos nos sería pragmático contar con un modelo lógico que atenué la cuarta tesis, pero que en “cierta medida” gane poder explicativo frente a no tener un modelo con el cual explicar la incorporación de premisas.</p>
+</section>
+<section id="el-modelo-akm-y-la-abducción-como-retroducción" class="level1">
+<h1>El modelo AKM y la abducción como retroducción</h1>
+<p>En la literatura actual se considera como modelo AKM<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, a un conjunto de definiciones y procedimientos formales, que permiten resolver un problema abductivo. Es decir, se puede describir al modelo AKM, como un conjunto de enunciados de objetos lógicos que tienen una correspondencia con los elementos del esquema de Peirce revisado previamente, y un conjunto de operaciones que sirven de algoritmo para calcular un(os) abducible(s).</p>
+<p>Una de las peculiaridades de este modelo es definir un problema y solución abductiva, a la vista del esquema de Peirce. Esta consideración se debe a que un problema abductivo sería una manera formal de representar la imposibilidad de realizar un deducción desde un conjunto de enunciados hacia una fórmula (el hecho sorprendente). De esta forma, un problema abductivo es un problema en el cuál una fórmula <em><span class="math inline">\(\psi\)</span></em> no es consecuencia lógica de un conjunto de enunciados designado por (la teoría de base) <em><span class="math inline">\(\theta\)</span></em>. Ahora se presentará una definición formal de problema y solución abductiva presente en <span class="citation" data-cites="kakas1998">Kakas y Kowalski (<a href="#ref-kakas1998" role="doc-biblioref">1998</a>)</span> y <span class="citation" data-cites="aliseda2006">Aliseda (<a href="#ref-aliseda2006" role="doc-biblioref">2006</a>)</span>.</p>
+<div id="def-1" class="theorem definition">
+<p><span class="theorem-title"><strong>Definición 17.1 (Problema abductivo)</strong></span> Dado un lenguaje formal <span class="math inline">\(L\)</span> y una relación de consecuencia lógica <span class="math inline">\(\models\)</span>, se considera que <span class="math inline">\(&lt; \Theta, \phi &gt;\)</span> es un <em>problema</em> abductivo, en donde <span class="math inline">\(\Theta \subset L, \Theta \nvDash \bot\)</span> y <span class="math inline">\(\psi \in L\)</span>, si y sólo si:<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> <span class="math inline">\(\Theta \nvDash \psi\)</span></p>
+</div>
+<div id="def-2" class="theorem definition">
+<p><span class="theorem-title"><strong>Definición 17.2 (Solución al problema abductivo)</strong></span> La <em>solución</em> al problema abductivo <span class="math inline">\(&lt; \Theta, \psi &gt;\)</span> es <span class="math inline">\(\alpha \in L\)</span> tal que: <span class="math inline">\(\Theta \cup {\alpha} \models \phi\)</span></p>
+</div>
+<p>Además tenemos tres condiciones para <em><span class="math inline">\(\alpha\)</span></em>:</p>
+<ol type="1">
+<li>Requerimiento de <em>consistencia</em>: <em><span class="math inline">\(\alpha\)</span></em> debe ser <strong>consistente</strong> con <span class="math inline">\(\theta\)</span>; <em><span class="math inline">\(\alpha\)</span></em> debe ser <strong>consistente</strong> con <span class="math inline">\(\phi\)</span>. Esto es que <span class="math inline">\(\theta, \alpha \nvDash \bot\)</span> y <span class="math inline">\(\phi ,\)</span>$ respectivamente.</li>
+<li>Requerimiento de <em>explicación</em>: <em><span class="math inline">\(\alpha\)</span></em> debe ser <strong>explicativa</strong>. Esto es <span class="math inline">\(\alpha \nvDash \phi\)</span>.</li>
+<li>Requerimiento de <em>simplicidad</em> : <em><span class="math inline">\(\alpha\)</span></em> es más <strong>simple</strong> que, por ejemplo <span class="math inline">\(\alpha \land \beta\)</span>.</li>
+</ol>
+<p>Si bien, el tratamiento lógico de la abducción en el modelo AKM posee muchas aristas y complementaciones<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, no es propósito de este trabajo realizar una exposición de este modelo. Esto por dos razones: la primera es que ya ha sido realizado por los mismos autores; la segunda, es que lo relevante para el enfoque de este trabajo consiste en la definición de problema abductivo, su relación con la consecuencia lógica y cómo el modelo utiliza esta relación para una aplicación de tablas semánticas que permitan el cálculo de abducibles.</p>
+<p>El hecho de que la definición de problema abductivo recaiga en su relación con la imposibilidad de justificar una consecuencia lógica, nos brinda una capacidad de descripción poderosa. La razón de esta afirmación, recae en que la lógica sabe tratar muy bien con conjuntos de enunciados y su consistencia, como también con la corroboracion de la consecuencia lógica de un formula a partir de un conjunto de proposiciones.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<p>Por este motivo, es que se describe a la herramienta de las tablas semánticas como el “método de analisis-síntesis moderno”<span class="citation" data-cites="aliseda2006">(<a href="#ref-aliseda2006" role="doc-biblioref">Aliseda 2006, 330:100</a>)</span>. Ya que, esta herramienta lógica posee un poder técnico gigantesco, descansando en el poder de la <em>reductio ad absurdum</em>, y permitiendo demostrar mediante diagramas isomorfos a las operaciones técnicas de la lógica, la consistencia y consecuencia lógica de fórmulas lógicas. Profundizando un poco más en el trabajo de <span class="citation" data-cites="aliseda2006">Aliseda (<a href="#ref-aliseda2006" role="doc-biblioref">2006</a>)</span> y <span class="citation" data-cites="mayer1993">MAYER y PIRRI (<a href="#ref-mayer1993" role="doc-biblioref">1993</a>)</span>, nos percatamos que la idea central consiste en establecer una correspondencia única entre un problema abductivo y un a´rbol semántico. De esta manera, el algoritmo del modelo AKM nos brinda la posibilidad de ir cerrando ramas teniendo en considera- ción los criterios para que esta herramienta deductiva de cuenta o justifique la incorporación de una o más premisas.</p>
+</section>
+<section id="conclusión" class="level1">
+<h1>Conclusión</h1>
+<p>A la hora de buscar formalizar mediante modelos lógicos el esquema de Peirce, debemos tener en consideración la finalidad de esta empresa. Pues en ciertos contextos, requerimos de criterios fuertes; en otros, quizá convendría atenuar más algún criterio que otro, con la finalidad de que el modelo se vuelva más aplicable a lo que el contexto requiera.</p>
+<p>Dicho de esta forma, un contexto de discurso formal requerirá de un modelo lógico que quizá no sea requerido en un contexto de razonamiento “real”.</p>
+<p>Este trabajo está lejos de agotar el estudio de los requerimientos de los distintos contextos en que se puede utilizar un modelo lógico abductivo. Por el contrario, la intención ha sido servir de introducción y gúıa para análisis posteriores. Ya que, al ser los modelos abductivos de reciente génesis, nos queda la tarea de determinar cuáles son las condiciones y criterios que determinan la aplicabilidad de dichos modelos.</p>
+</section>
+<section id="referencias" class="level1 unnumbered">
+<h1 class="unnumbered">Referencias</h1>
+<!-- # Bibliografia -->
+<!--
+> Aliseda, A. (1997). *Seeking Explanations: Abduction in logic, Philosophy of Science and Artificial Intelligence*. \[PhD tesis, Stanford University\].
+>
+> Aliseda, A. (2003). Mathematical Reasoning vs. Abductive Reasoning: A Structural Approach. *Synthese*. vol.134, no. 1/2, pp. 25-44.
+>
+> Aliseda, A. (2006). *Abductive Reasoning. Logical Investigations into Disco- very and Explanation*. Synthese Library. Vol. 330. Berlin: Springer.
+>
+> Aliseda, A. (2007). Abductive Reasoning: Challenges Ahead. *Theoria*. Segun- da Epoca. 60. 10.1387/theoria.446.
+>
+> Beth, E. W. (1969). Semantic Entailment and Formal Derivability. En Hin- tikka J. (ed), *The Philosophy of Mathematics*, pp. 9-41. Oxford University Press.
+>
+> Haack, S. (1991). *Filosofía de las Lógicas*, Ediciones Cátedra. Madrid.
+>
+> Kakas, A., Kowalski R. y Toni, F. (1998). The role of abduction in logic pro- graming, *Handbook of logic in Artificial Intelligence and Logic Programming*, Oxford University Press, pp. 235-324.
+>
+> Kaptian, T. (1997). Peirce and the structure of abductive inference, en: Hou- ser, N., Roberts, D.D. y Evra, J.V. (eds.), *Studies in the Logic of Charles Sanders Peirce*. Indiana U.P., Bloomington and Indianapolis.
+>
+> Magnani, L. (2001). *Abduction, Reason, and Science: Processes of Discovery and Explanation*. Kluwer-Plenum. New York.
+>
+> Mayer, M.C. y Pirri, F. (1993), First order abduction via tableu and sequent calculi, *Bulletin of the IGPL*, vol. 1, pp. 99-117.
+>
+> Meheus J. y Nickles T. (1999). The methodological study of discovery and creativity -- Some background, *Foundations of Science*, vol 4(3), pp. 231-235.
+>
+> Peirce, Ch. S. (1931--1935) *Collected Papers of Charles Sanders Peirce*. Volu- mes 1--6 edited by C. Hartshorne, P. Weiss. Cambridge, Harvard University Press.; and volumes 7--8 edited by A.W. Burks. Cambridge, Harvard Univer- sity Press. 1958.
+>
+> Soler, F. (2005). *Modelos Formales de Explicación en Lógica e Inteligencia Artificial*. \[PhD thesis, Universidad de Sevilla\].
+>
+> Soler, F. y Nepomuceno F. (2008). Deducción y abducción. *Teorema*, vol. xxxvii(1), pp. 5-16.
+>
+> Soler, F., Nepomuceno, F. y Aliseda, A. (2006). Model-Based Abduction via Dual Resolution. *Logic Journal of the IGPL*, vol 14(2), pp. 305-319.
+>
+> Soler, F., Nepomuceno, F. y Aliseda, A. (2009). Abduction via C-tableaux and D-resolution. *Journal of Applied Non-Classical Logics*.19.211-225.
+>
+> Woods J. (2007). Ignorance and Semantic Tableaux: Aliseda on Abduction.
+>
+> *THEORIA*, vol. 2(3), pp. 305-318.
+-->
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-aliseda2006" class="csl-entry" role="listitem">
+Aliseda, Atocha. 2006. <em><span>ABDUCTIVE REASONING</span>: <span>LOGICAL INVESTIGATIONS INTO DISCOVERY AND EXPLANATION</span></em>. Vol. 330. Synthese <span>Library</span>. <span>Dordrecht</span>: <span>Springer Netherlands</span>. <a href="https://doi.org/10.1007/1-4020-3907-7">https://doi.org/10.1007/1-4020-3907-7</a>.
+</div>
+<div id="ref-beth1955" class="csl-entry" role="listitem">
+Beth, Evert Willem. 1955. <em>Semantic Entailment and Formal Derivability</em>. <span>Noord-Hollandsche</span>.
+</div>
+<div id="ref-kakas1998" class="csl-entry" role="listitem">
+Kakas, A C, y R A Kowalski. 1998. <span>«The <span>Role</span> of <span>Abduction</span> in <span>Logic Programming</span>»</span>. En <em>Handbook of <span>Logic</span> in <span>Artificial Intelligence</span> and <span>Logic Programming</span>: <span>Volume</span> 5: <span>Logic Programming</span></em>, editado por Dov M Gabbay, C J Hogger, y J A Robinson, 0. <span>Oxford University Press</span>. <a href="https://doi.org/10.1093/oso/9780198537922.003.0007">https://doi.org/10.1093/oso/9780198537922.003.0007</a>.
+</div>
+<div id="ref-kapitan1997" class="csl-entry" role="listitem">
+Kapitan, Tomis. 1997. <span>«Peirce and the Structure of Abductive Inference»</span>. En <em>Studies in the <span>Logic</span> of <span>Charles Sanders Peirce</span></em>, editado por Nathan Houser, D. D. Roberts, y J. V. Evra. <span>Bloomington and Indianapolis</span>: <span>Indiana University Press</span>.
+</div>
+<div id="ref-kowalski1979" class="csl-entry" role="listitem">
+Kowalski, Robert. 1979. <em>Logic for <span>Problem Solving</span></em>.
+</div>
+<div id="ref-kuipers1999" class="csl-entry" role="listitem">
+Kuipers, Theo. 1999. <span>«Abduction Aiming at Empirical Progress or Eventruth Approximationleading to a Challenge for Computational Modelling»</span>. <em>Foundations of Science</em> 4 (septiembre): 307-23. <a href="https://doi.org/10.1023/A:1009688227714">https://doi.org/10.1023/A:1009688227714</a>.
+</div>
+<div id="ref-magnani2001" class="csl-entry" role="listitem">
+Magnani, Lorenzo. 2001. <em>Abduction, <span>Reason</span> and <span>Science</span></em>. <span>Boston, MA</span>: <span>Springer US</span>. <a href="https://doi.org/10.1007/978-1-4419-8562-0">https://doi.org/10.1007/978-1-4419-8562-0</a>.
+</div>
+<div id="ref-mayer1993" class="csl-entry" role="listitem">
+MAYER, MARTA CIALDEA, y FIORA PIRRI. 1993. <span>«First Order Abduction via Tableau and Sequent Calculi»</span>. <em>Logic Journal of the IGPL</em> 1 (1): 99-117. <a href="https://doi.org/10.1093/jigpal/1.1.99">https://doi.org/10.1093/jigpal/1.1.99</a>.
+</div>
+<div id="ref-meheus1999" class="csl-entry" role="listitem">
+Meheus, Joke, y Thomas Nickles. 1999. <span>«The <span>Methodological Study</span> of <span>Creativity</span> and <span>Discovery</span> – <span>Some Background</span>»</span>. <em>Foundations of Science</em> 4 (3): 231-35. <a href="https://doi.org/10.1023/A:1009663506333">https://doi.org/10.1023/A:1009663506333</a>.
+</div>
+<div id="ref-peirce1931" class="csl-entry" role="listitem">
+Peirce, Charles S. 1931. <em>Collected Papers</em>. <span>Cambridge: Belknap Press of Harvard University Press</span>.
+</div>
+<div id="ref-toscano2008" class="csl-entry" role="listitem">
+Toscano, Fernando Soler, y Ángel Nepomuceno Fernández. 2008. <span>«Deducción y Abducción»</span>. <em>Teorema: Revista Internacional de Filosofía</em> 27 (1): 5-16. <a href="https://www.jstor.org/stable/43046714">https://www.jstor.org/stable/43046714</a>.
+</div>
+<div id="ref-woods2007" class="csl-entry" role="listitem">
+Woods, John. 2007. <span>«Ignorance and Semantic Tableaux: Aliseda on Abduction»</span>. <em>THEORIA. Revista de Teoría, Historia y Fundamentos de la Ciencia</em> 22 (3): 305-18. <a href="https://www.redalyc.org/articulo.oa?id=339730804006">https://www.redalyc.org/articulo.oa?id=339730804006</a>.
+</div>
+</div>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Por la ‘A’ tenemos a <span class="citation" data-cites="aliseda2006">Aliseda (<a href="#ref-aliseda2006" role="doc-biblioref">2006</a>)</span>; por la ‘K’ tenemos a <span class="citation" data-cites="kowalski1979">Kowalski (<a href="#ref-kowalski1979" role="doc-biblioref">1979</a>)</span>, <span class="citation" data-cites="kuipers1999">Kuipers (<a href="#ref-kuipers1999" role="doc-biblioref">1999</a>)</span>, <span class="citation" data-cites="kakas1998">Kakas y Kowalski (<a href="#ref-kakas1998" role="doc-biblioref">1998</a>)</span>; por la ‘M’ tenemos a <span class="citation" data-cites="magnani2001">Magnani (<a href="#ref-magnani2001" role="doc-biblioref">2001</a>)</span> y <span class="citation" data-cites="meheus1999">Meheus y Nickles (<a href="#ref-meheus1999" role="doc-biblioref">1999</a>)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Cabe mencionar que el modelo AKM no es el único modelo que busca dar cuenta lógicamente del fenómeno abductivo. Tenemos por otra parte el modelo GW, el cuál lleva las siglas en correspondencia con sus autores. Véase <span class="citation" data-cites="woods2007">Woods (<a href="#ref-woods2007" role="doc-biblioref">2007</a>)</span> para una descripción.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>En <span class="citation" data-cites="aliseda2006">Aliseda (<a href="#ref-aliseda2006" role="doc-biblioref">2006</a>)</span> se distinguen dos problemas abductivos. La novedad consiste en (1), por su parte la anomalía exige, además, <span class="math inline">\(\theta = \phi\)</span>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>El modelo AKM no ha sido desarrollado por una persona, ni de forma unificada. Por ello, conviene tener a la vista las críticas que se le realizan al modelo AKM presente <span class="citation" data-cites="woods2007">Woods (<a href="#ref-woods2007" role="doc-biblioref">2007</a>)</span> y <span class="citation" data-cites="toscano2008">Toscano y Fernández (<a href="#ref-toscano2008" role="doc-biblioref">2008</a>)</span>, en cuanto utiliza la deducción para realizar un proceso abductivo. De esta forma se le crítica que posee una deducción encubierta. Por otra parte, una superación de esta crítica se puede observar en <span class="citation" data-cites="toscano2008">Toscano y Fernández (<a href="#ref-toscano2008" role="doc-biblioref">2008</a>)</span>, en dónde los autores buscan complementar mediante la incorporación de C-estructuras y D-resolución al modelo AKM, con el fin de sortear las críticas de utilizar una deducción solapada.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Es preciso mencionar aqúı el aporte realizado por <span class="citation" data-cites="beth1955">Beth (<a href="#ref-beth1955" role="doc-biblioref">1955</a>)</span>. Para una revisión de por qué se utiliza esta herramienta en el modelo AKM, véase <span class="citation" data-cites="aliseda2006">(<a href="#ref-aliseda2006" role="doc-biblioref">Aliseda 2006, vol. 330, cap. 4</a>)</span>.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+<p>Esta página es distribuida por la Universidad de Navarra y el GEP <a href="https://www.unav.es/gep/" class="uri">https://www.unav.es/gep/</a></p></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiado");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiado");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./sastre.html" class="pagination-link" aria-label="Los 10 tipos de signo en C.S. Peirce y su implicación en el proceso de toma de decisiones.">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Los 10 tipos de signo en C.S. Peirce y su implicación en el proceso de toma de decisiones.</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./vargas.html" class="pagination-link" aria-label="La concepción peirceana de las falacias una presentación preliminar">
+        <span class="nav-page-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">La concepción peirceana de las falacias una presentación preliminar</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.550">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ivan Vladimir Gavriloff">
+<meta name="keywords" content="Gráficos existenciales, aserción, hoja de aseveración">
+
+<title>IX Jornadas ‘Peirce en Argentina’ - 3&nbsp; ¿Qué es la hoja de aseveración?</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./hugueth-vasquez.html" rel="next">
+<link href="./de-boeck.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cortes-lopez.html">Artículos</a></li><li class="breadcrumb-item"><a href="./gavriloff.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">¿Qué es la hoja de aseveración?</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">IX Jornadas ‘Peirce en Argentina’</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Buscar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentación</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Artículos</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cortes-lopez.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">El desarrollo de la semiótica de Charles Peircerealizado por Max Bense en Stuttgart</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./de-boeck.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">El carácter temporal de la mente y la aproximación a lo real en el proceso lógico de investigación</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./gavriloff.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">¿Qué es la hoja de aseveración?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hugueth-vasquez.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Topos de Gráficos Existenciales sobre Superficies de Riemann</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lucifora.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">El impacto de la inteligencia artificial en la semiosis humana desde la teoría de Peirce</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nubiola.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Presentación de Los viajes europeos de Charles S. Peirce, 1870-1883 de Sara Barrena y Jaime Nubiola</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./olezza.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Inteligencia artificial, semiosis y sistemas complejos</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./paniagua.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Aproximación a algunos procesos de mimetismo biológico desde el carácter pragmático de la semiótica peirceana.</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./poblete.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Concepciones metodológicas -ergo teóricas- sobre el razonamiento abductivo y el Pensamiento de Diseño (<em>Design Thinking</em>); la abducción recargada</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ramirez-figueroa.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Peirce y su interpretación anticipatoria del condicional <em>diodórico</em></span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sastre.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Los 10 tipos de signo en C.S. Peirce y su implicación en el proceso de toma de decisiones.</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./toledo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Condiciones para describir la forma lógica de la abducción</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./vargas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">La concepción peirceana de las falacias una presentación preliminar</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./visokolskis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Peirce en torno a mecanismos cognitivos con carga inferencial</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./zelis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">El psicoanálisis como ciencia horótica y c(i)enopitagórica</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#sec-intro" id="toc-sec-intro" class="nav-link active" data-scroll-target="#sec-intro">Introducción</a></li>
+  <li><a href="#sec-asercion" id="toc-sec-asercion" class="nav-link" data-scroll-target="#sec-asercion">Las aseveraciones</a>
+  <ul class="collapse">
+  <li><a href="#sec-caso-1" id="toc-sec-caso-1" class="nav-link" data-scroll-target="#sec-caso-1">Caso 1</a></li>
+  <li><a href="#sec-caso-2" id="toc-sec-caso-2" class="nav-link" data-scroll-target="#sec-caso-2">Caso 2</a></li>
+  <li><a href="#sec-comun" id="toc-sec-comun" class="nav-link" data-scroll-target="#sec-comun">Lo que hay de común y en diferencia en ambos casos</a></li>
+  </ul></li>
+  <li><a href="#sec-t-asercion" id="toc-sec-t-asercion" class="nav-link" data-scroll-target="#sec-t-asercion">La teoría de aserción de Peirce</a>
+  <ul class="collapse">
+  <li><a href="#sec-prop" id="toc-sec-prop" class="nav-link" data-scroll-target="#sec-prop">La proposición</a></li>
+  <li><a href="#sec-resp" id="toc-sec-resp" class="nav-link" data-scroll-target="#sec-resp">La responsabilidad</a></li>
+  <li><a href="#sec-truth" id="toc-sec-truth" class="nav-link" data-scroll-target="#sec-truth">La verdad</a></li>
+  </ul></li>
+  <li><a href="#la-hoja-de-aseveración-en-los-gráficos-existenciales" id="toc-la-hoja-de-aseveración-en-los-gráficos-existenciales" class="nav-link" data-scroll-target="#la-hoja-de-aseveración-en-los-gráficos-existenciales">La hoja de aseveración en los gráficos existenciales</a></li>
+  <li><a href="#qué-es-al-final-la-hoja-de-aseveración" id="toc-qué-es-al-final-la-hoja-de-aseveración" class="nav-link" data-scroll-target="#qué-es-al-final-la-hoja-de-aseveración">Qué es, al final, la hoja de aseveración</a></li>
+  <li><a href="#conclusiones" id="toc-conclusiones" class="nav-link" data-scroll-target="#conclusiones">Conclusiones</a></li>
+  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cortes-lopez.html">Artículos</a></li><li class="breadcrumb-item"><a href="./gavriloff.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">¿Qué es la hoja de aseveración?</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">¿Qué es la hoja de aseveración?</span></h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Autor/a</div>
+  <div class="quarto-title-meta-heading">Afiliaciones</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Ivan Vladimir Gavriloff </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Universidad Nacional de Tucumán
+          </p>
+        <p class="affiliation">
+            CONICET
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Resumen</div>
+    <p>Uno de los elementos fundamentales de los gráficos existenciales de Peirce es la hoja de aseveración. La misma se encuentra en todos los sistemas de lógica diagramática del filosofo estadounidense. Las definiciones que Peirce acerca de ella son de índole diverso. Sin embargo, un punto interesante a considerar es la conexión que tiene dicha hoja de aseveración con la teoría semiótica de él y sus consideraciones acerca de lo que es una aserción o aseveración. A primera vista, no hay una conexión evidente entre estos dos conceptos. En el presente trabajo voy a dar cuenta de una conexión entre las nociones de hoja de aseveración y la aseveración dentro de la teoría semiótica de Peirce para proponer una visión más sistemática acerca de la noción de aseveración para Peirce.</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Palabras clave</div>
+    <p>Gráficos existenciales, aserción, hoja de aseveración</p>
+  </div>
+</div>
+
+</header>
+
+
+<section id="sec-intro" class="level1">
+<h1>Introducción</h1>
+<p>Durante los últimos años de vida de Charles S. Peirce el filósofo lo destino a trabajar en sus dos más grandes proyectos: su semiótica y los gráficos existenciales. La correspondencia con Lady Welby <span class="citation" data-cites="peirce1977">(<a href="#ref-peirce1977" role="doc-biblioref">Charles Sanders Peirce y Welby 1977</a>)</span> y los manuscritos recientemente publicados sobre los gráficos existenciales <span class="citation" data-cites="pietarinen2020a pietarinen2021b pietarinen2021a">(<a href="#ref-pietarinen2020a" role="doc-biblioref">Charles Sanders Peirce 2019</a>, <a href="#ref-pietarinen2021b" role="doc-biblioref">2021a</a>, <a href="#ref-pietarinen2021a" role="doc-biblioref">2021b</a>)</span> son una muestra de ello. Dentro de todo lo escrito en ese tiempo se puede observar cómo Peirce trataba de perfeccionar ambas teorías: realizar una clasificación sistemática de los signos por un lado y, por el otro, sistematizar los gráficos existenciales e ir incrementando la capacidad analítica de los mismos (con el sistema <em>Gamma</em>)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<p>Cuando uno estudia a los gráficos existenciales lo primero que puede llamarle la atención es la presentación de la hoja de aseveración. Cualquiera que ha realizado un curso introductorio de lógica toma por sentado que los símbolos que escribe para poder realizar formalizaciones, mecanismos de decisión y demostraciones lógicas se encuentran en un soporte físico (sea el papel, la pizarra, un editor de texto), pero no lo considera un elemento o parte del sistema lógico formal con el que está trabajando. Por un lado, esto tiene que ver con que en casi la totalidad de los cursos introductorios de lógica se trabaja con la lógica simbólica y no se enseña desde un inicio un sistema de lógica diagramática como el de los gráficos existenciales<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Por otro lado, al ser un sistema de lógica diagramática esto lleva a tener en cuenta consideraciones respecto del soporte material en donde se realizan los gráficos.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> Sin embargo, las consideraciones de Peirce acerca de la hoja de aseveración no tienen que ver con el soporte físico material de los diagramas sino más bien con aquello que permite y significa la hoja de aseveración. La hoja de aseveración no es un simple soporte material donde <em>solamente</em> se van a inscribir y analizar los gráficos existenciales. Por algo se denomina <em>hoja de aseveración</em>.</p>
+<p>La noción de aseveración, siguiendo la filosofía de Peirce, toma consideraciones de su filosofía de la lógica, sus sistemas lógicos, su filosofía del lenguaje y semiótica. Es decir, es una noción con varias aristas conceptuales que tienen que ser analizadas pertinentemente si se desea tener una consideración sistemática acerca de la misma. No es algo que el propio Peirce realizó en su obra.</p>
+<p><em>Prima facie</em> si uno sigue las definiciones dadas por el propio Peirce acerca de lo que es una aseveración y de lo que es la hoja de aseveración puede generar ciertas dudas sobre la segunda noción debido a que puede parecer que la hoja de aseveración fue pensada únicamente dentro del sistema de gráficos existenciales pero no en consonancia con el sistema semiótico peirceano. Es por esto que considero necesario un trabajo que aclare dicha situación.</p>
+<p>En el presente trabajo voy a responder la pregunta del título del mismo. Debido a que, <em>prima facie</em> Peirce utiliza dos nociones de aseveración, una para los gráficos existenciales y otra para su teoría semiótica, voy a indagar una manera en que ambas nociones sean conectadas para que así, suponiendo los principios de sistematicidad, arquitectónica y continuo de la filosofía peirceana, se aclara de la mejor manera posible dicha noción. Para ello primero voy a indagar en la teoría de la aserción de Peirce, luego voy a indagar los distintos modos en que la hoja de aseveración es presentada a lo largo de las presentaciones de los gráficos existenciales para, por último, poder conectar ambos usos de la noción en una sola unidad.</p>
+</section>
+<section id="sec-asercion" class="level1">
+<h1>Las aseveraciones</h1>
+<p>¿Cuándo realizamos aseveraciones? ¿Realizo una aseveración cuando comento “Martín esta bailando tango ahora”? ¿Y con escribir “<span class="math inline">\(2 + 2 = 4\)</span>” en una pizarra? Ateniéndonos al sentido común, cualquiera podría responder a mis preguntas de manera afirmativa. La cuestión se vuelve más compleja cuando pido una justificación de dichas respuestas. Las dos proposiciones son distintas: la primera habla acerca de un agente que esta haciendo una determinada acción en un determinado tiempo; la segunda es una suma matemática que da un cierto resultado. Supongamos dos casos hipotéticos para seguir analizando dichas expresiones lingüísticas.</p>
+<section id="sec-caso-1" class="level2">
+<h2 class="anchored" data-anchor-id="sec-caso-1">Caso 1</h2>
+<p>Catalina está buscando a Martín luego de la primera sesión de las jornadas Peirce y, fuera de la academia nacional de ciencias, me pregunta lo siguiente: “Ivan, ¿no sabes dónde está Martín?” A lo que le respondo “Martín esta bailando tango ahora”. Aquí la situación de una pregunta da lugar a una respuesta. Ahora bien, esto da lugar a que Catalina realice otra pregunta como “¿Cómo lo sabes?” A lo que respondo: “Porque me encontré a la salida con él y me dijo que iba a ir a una milonga cerca de aquí.”</p>
+</section>
+<section id="sec-caso-2" class="level2">
+<h2 class="anchored" data-anchor-id="sec-caso-2">Caso 2</h2>
+<p>Con Javier decidimos encontrarnos en una reunión en un aula de la Facultad de Ciencias Económicas para trabajar acerca de la teoría de la demostración. Cuando llegamos al aula hay en la pizarra escrito la siguiente expresión matemática: “<span class="math inline">\(2 + 2 = 4\)</span>”. Ante esto Javier la mira y me pregunta: “¿Cómo sabemos que esa expresión es verdadera?” A lo que yo afirmo “Porque se puede dar una demostración de que esa suma es así y no de otra manera.”</p>
+</section>
+<section id="sec-comun" class="level2">
+<h2 class="anchored" data-anchor-id="sec-comun">Lo que hay de común y en diferencia en ambos casos</h2>
+<p>En el <a href="#sec-caso-1" class="quarto-xref"><span>Sección 5.1</span></a> y <a href="#sec-caso-2" class="quarto-xref"><span>Sección 5.2</span></a> lo que hay en común es una interlocución entre dos agentes y, a la vez, un juego de preguntas y respuestas acerca de la veracidad de lo afirmado en ambos casos. Hay un pedido de razones a modo de justificación de la verdad de las enunciaciones que responden a las primeras preguntas.</p>
+<p>La diferencia entre ambos casos está en aquello que se afirma. En la primera es una situación empírica mientras que en el segundo es una suma matemática. Son distintos “hechos” afirmados, por lo que cada uno de ellos tiene que ser justificado de maneras distintas. El primero tiene que ser un justificación de algún tipo de evidencia empírica (en este caso particular, el testimonio de Martín acerca de su paradero); el segundo tiene que ser una demostración formal que de cuenta de que dicha suma es correcta.</p>
+<p>Ahora bien, <em>per se</em> en los dos casos uno podría preguntarse si hay alguna diferencia entre afirmar y aseverar. En los dos casos, yo proferí afirmaciones las cuales no parecen que contengan nada que las convierta en aseveraciones. Al menos aquí estoy suponiendo que una afirmación tiene alguna diferencia con una aseveración.</p>
+</section>
+</section>
+<section id="sec-t-asercion" class="level1">
+<h1>La teoría de aserción de Peirce</h1>
+<p>Teniendo en cuenta lo mostrado en <a href="#sec-asercion" class="quarto-xref"><span>Capítulo 5</span></a> la teoría de Peirce puede ser entendida de un mejor modo. Una aserción para Peirce es:</p>
+<blockquote class="blockquote">
+<p>“<em>Aseverar una proposición es hacerse responsable de su verdad</em>” (CP 5.543)<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+</blockquote>
+<p>Aseverar es un <em>acto</em> una acción realizada por un agente. Aunque esto puede ser considerado una trivialidad, no es algo simple el decir que la aseveración es un acto, una acción que un determinado agente realiza. Esto va a impactar en el modo de unificar la teoría de la aserción con la noción de hoja de aseveración.</p>
+<p>Hay varios componentes dentro de la definición que tienen que ser entendidos de manera peirceana: la <em>verdad</em>, la <em>responsabilidad</em> y la <em>proposición</em>. La definición conjuga cuestiones epistémicas, deontológicas y lógicas. Es menester tratar sucintamente cada una de ellas para poder dar cuenta de lo que es aseverar.</p>
+<section id="sec-prop" class="level2">
+<h2 class="anchored" data-anchor-id="sec-prop">La proposición</h2>
+<p>Voy a comenzar diciendo que la proposición para Peirce no es lo mismo que un juicio o una expresión lingüística. Esto puede verse bien en la siguiente cita:</p>
+<!-- > "*A proposition [...] is not to be understood as the lingual expression of a judgment. It is, on the contrary, that sign of which the judgment is one replica and the lingual expression another. But a judgment is distinctly more than the mere mental replica of a proposition. It not merely expresses the proposition, but it goes farther and accepts it. I grant that the normal use of a proposition is to affirm it; and its chief logical properties relate to what would result in reference to its affirmation. It is, therefore, convenient in logic to express propositions in most cases in the indicative mood. But the proposition in the sentence, “Socrates est sapiens,” strictly expressed, is “Socratem sapientem esse.” The defense of this position is that in this way we distinguish between a proposition and the assertion of it; and without such distinction it is impossible to get a distinct notion of the nature of the proposition. One and the same proposition may be affirmed, denied, judged, doubted, inwardly inquired into, put as a question, wished, asked for, effectively commanded, taught, or merely expressed, and does not thereby become a different proposition*." (NEM IV, 428) -->
+<blockquote class="blockquote">
+<p>“<em>Una proposición […] no tiene que ser entendida como una expresión lingüística o un juicio. Es, al contrario, un signo dek que el juicio es una replica y la expresión lingüística otra. Pero un juicio is distintamente más que la mera replica mental de unaa proposición. No expresa meramente la proposición, va más allá de ella y la acepta. Concedo que el uso normal de la proposición es aceptarla; y que sus propiedades lógicas principales se relacionan con lo que podrían resultar en referencia con su afirmación. Es, por tanto, conveniente en lógica expresar proposiciones en la mayoría de los casos en modo indicativo. Pero la propoisición en la oración ‘Socrates est sapiens’ estrictamente expresada es ‘Socrates sapientem esse’. La defensa de esta posición es que de este modo podemos distinguir entre una proposición y la aseveración de ella; y sin esa distinción es imposible obtener una noción distintiva de la naturaleza de la proposición. Una y la misma proposición puede ser afirmada, negada, enjuiciada, dudada, indagada interiormente, puesta como pregunta, deseada, pedida, comandada, enseñada o meramente expresada, y eso no hace que se convierta en una proposición diferente.</em>” (NEM IV, 428)</p>
+</blockquote>
+<p>¿Qué es una proposición entonces? Es un <em>type</em> el cual se instancia en <em>tokens</em> que son instanciados cuando el agente realiza acciones como la afirmación, la negación, el juicio, la duda, la pregunta, el deseo, una orden o asevera. Claramente esto lleva a considerar que la proposición no es algo que tiene que ver con la metafísica o con el psicologismo de la época.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<p>Peirce va a mantener los componentes de la proposición siguiendo la tradición aristotélica de Sujeto y Predicado. El sujeto cumple el rol del índice de la proposición, aquello que nos indique acerca de qué es lo que se esta tomando como objeto de la proposición, mientras que el predicado cumple el rol de icono mostrando aquello que se quiere resaltar del objeto.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> De este modo es que Peirce sostiene que:</p>
+<!-- > "*[...] every proposition is a compound of two signs, of which one functions significantly, the other denotatively. The former is intended to create something like a picture in the mind of the interpreter, the latter to point to what he is to think of that picture as being a picture of*". (MS. 284 "Basis of Pragmatism" 1905 p. 43) -->
+<blockquote class="blockquote">
+<p>“<em>[…] todo proposición es un compuesto de dos signos, el cual uno funciona significativamente, el otro denotativamente. El primero tiene la intención de crear algo como una imagen en la mente del intérprete, el último apunta a aquello que se piensa de acerca de lo que la imagen es</em>.” (MS. 284 “Basis of Pragmatism” 1905 p.&nbsp;43)</p>
+</blockquote>
+<p>Y esto es completamente congruente con lo dicho unos 12 años antes:</p>
+<!-- > "*Every assertion is an assertion that two different signs have the same object*." (“Short Logic”, 1893, CP 2.437). -->
+<blockquote class="blockquote">
+<p>“<em>Toda aseveración es una aseveración que dos diferentes signos tienen el mismo objeto</em>.” (“Short Logic”, 1893, CP 2.437).</p>
+</blockquote>
+</section>
+<section id="sec-resp" class="level2">
+<h2 class="anchored" data-anchor-id="sec-resp">La responsabilidad</h2>
+<!-- Escribir acerca de qué tipo es la responsabilidad y como se mezcla la responsabilidad moral dentro de la lógica y de las aseveraciones -->
+<p>Siguiendo a <span class="citation" data-cites="iglesias2017">Iglesias (<a href="#ref-iglesias2017" role="doc-biblioref">2017-07-18</a>)</span>, la responsabilidad de la que habla Peirce puede interpretarse de dos maneras:</p>
+<ol type="1">
+<li>la interpretación convencional: considera al acto de aseveración aceptable o no determinado por una sociedad;</li>
+<li>la interpretación moral: quien realiza aseveraciones es responsable debido a que se lo considera un agente moral.</li>
+</ol>
+<p>Para la primera interpretación, el acto de aseveración es solo un acto socio-lingüístico por lo que no compete nada a la moralidad social ni a la moral del agente. Esa responsabilidad es un simple efecto que produce el agente cuando asevera ya que puede ser criticado socialmente dentro de la comunidad en la que se encuentra profiriendo dicho acto. La negación del carácter moral se debe a que la responsabilidad se basa en una mera convención, no depende de la naturaleza misma de la aseveración, sino de lo que la convención social determine aquello que es aceptable de lo que no es. Este tipo de interpretación es sostenida por <span class="citation" data-cites="pagin2007">Pagin (<a href="#ref-pagin2007" role="doc-biblioref">2007-01-22</a>)</span>.</p>
+<p>La segunda interpretación, aquella que considera a la responsabilidad un responsabilidad moral se encuentra relacionado a que quienes profieren aseveraciones son agentes morales. Claramente esto tiene que ver, como en la primera interpretación, con que quienes realizan aseveraciones se encuentran en un determinado contexto social.</p>
+<p>La aseveración tiene un contenido de responsabilidad moral ya que al ser una acción, esta acción puede realizar cambios en el entorno y, en última instancia cambiar el estatus moral del agente quien la realizó.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> En este sentido es que al tener una responsabilidad moral, también de no cumplir con esa responsabilidad (aseverar una falsedad) el agente puede ser castigado. Ese castigo se debe a que su acción puede cambiar el estatus de la situación en la que se encuentra.</p>
+<p>Es en el segundo sentido que debe entenderse la responsabilidad de que se habla en (CP 5.543).</p>
+</section>
+<section id="sec-truth" class="level2">
+<h2 class="anchored" data-anchor-id="sec-truth">La verdad</h2>
+<p>La noción de verdad en la filosofía de Peirce es bastante compleja.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> Aunque hay posibles interpretaciones en que la noción de verdad para Peirce sea correspondendista, otras coherentista o una mezcla de ambas, respecto del caso de la aseveración y dada la definición que se ha expuesto en <a href="#sec-asercion" class="quarto-xref"><span>Capítulo 5</span></a> está claro que el componente acerca de la verdad en la aseveración es correspondentista.</p>
+<p>El modo en que cada agente se hace cargo, se hace responsable de sus aseveraciones tiene que ser en tanto haya un (o múltiples) modo(s) de contrastar lo aseverado con la realidad. En el caso de la <a href="#sec-caso-1" class="quarto-xref"><span>Sección 5.1</span></a> se tiene que verificar que, efecto, Martín esté bailando tango. En el segundo caso <a href="#sec-caso-2" class="quarto-xref"><span>Sección 5.2</span></a> la cuestión se dificulta. Al no ser algo índole empírica, la manera de corroborar que sea verdadero es mediante una obtención de una demostración. Aquí algunos podrían decir que la verdad que se necesita es de orden coherentista o algo más apega a la crítica realizada por parte de Quine al convencionalismo de Carnap.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> Sin embargo, uno podría decir, para seguir manteniendo el énfasis en la correspondencia, que el segundo caso es verdadero debido a los efectos posibles producidos por dicha aseveración. Cuando cualquier agente afirma <span class="math inline">\(2 + 2 = 4\)</span>, la proposición porta los mismos posibles efectos concretos en el caso en que la proposición se instancie en una aseveración.</p>
+<p>El objeto de la aseveración es una proposición. En su forma más básica, la proposición está dividida en dos partes, Sujeto y predicado donde el primero va a estar ocupado por un índice, el cual llama la atención, y el segundo es un icono que nos da la característica que se desea que el interpretante preste atención. Ambas partes de la proposición refieren al mismo objeto. Y es allí donde la verdad entra en la relación de las partes de la proposición. Esa verdad como correspondencia es lo que va a permitir comprobar que el icono que se toma como predicado del sujeto el cual es un índice se corresponda o no con el objeto.</p>
+</section>
+</section>
+<section id="la-hoja-de-aseveración-en-los-gráficos-existenciales" class="level1">
+<h1>La hoja de aseveración en los gráficos existenciales</h1>
+<p>Peirce, entre muchas otras propuestas y cuestiones, se destaca por hacer notar lo fundamental de la notación al momento de trabajar con sistemas lógicos. En un principio esto puede verse en la presentación de los gráficos existenciales en general como en la presentación de la hoja de aseveración en particular. Él considera sumamente necesario para una lógica diagramática presentar todos los elementos para la escritura de los gráficos existenciales. En ese sentido es que es necesario la presentación de una superficie donde los gráficos puedan inscribirse y borrarse. De allí, la presentación de la hoja de aseveración:</p>
+<!-- Citas sobre la hoja de aseveración: -->
+<!-- >1." *The System of Existential Graphs is a certain class of diagrams upon which it is permitted to operate certain transformations.*
+>1. *There is required a certain surface upon which it is practicable to scribe the diagrams and from which they can be erased in whole or in part*.
+>1. *The whole of this surface except certain parts which may be severed from it by “cuts” is termed the sheet of assertion.*" (CP 4.414, Syllabus, 1903) -->
+<blockquote class="blockquote">
+<ol type="1">
+<li>“<em>El sistema de Gráficos Existenciales es cierta clase de diagramas sobre el cual está permitido operar ciertas transformaciones.</em></li>
+<li><em>Se requiere una cierta superficie sobre la que practicable inscribir los diagramas y de la cual puedan ser borrados tanto en su totalidad como una parte.</em></li>
+<li><em>La totalidad de esta superficie excepto ciertas partaras que puede ser amputadas mediante “cortes” es denominada la hoja de aseveración.</em> (CP 4.414, Syllabus, 1903)</li>
+</ol>
+</blockquote>
+<p>Otra manera de presentar esta necesidad de la hoja de aseveración es la siguiente:</p>
+<!-- > "*What we have to do […] is to form a perfectly consistent method of expressing any assertion diagrammatically. The diagram must then evidently be something that we can see and contemplate. Now what we see appears spread out as upon a sheet. Consequently our diagram must be drawn upon a sheet. We must appropriate a sheet to the purpose, and the diagram drawn or written on the sheet is to express an assertion. We can, then, approximately call this sheet our sheet of assertion.*" (CP 4.430, c 1903) -->
+<blockquote class="blockquote">
+<p>“<em>Lo que tenemos que hacer […] es formar un método de expresión perfectamente consistente acerca de cualquier aseveración diagramatica. El diagrama debe ser algo evidente que podamos ver y contemplar. Lo que se nos aparece se extiende sobre la hoja. Consecuentemente nuestro diagrama debe ser dibujado sobre la hoja. Debemos tener una hoja con ese propósito, y el diagrama dibujado o escrito en la hoja expresa una aseveración. Podemos, entonces, llamar aproximadamente a esto nuestra hoja de aseveración</em>” (CP 4.430, c 1903)</p>
+</blockquote>
+<!-- - La hoja de aseveración es condición necesaria para poder realizar los EG. -->
+<p>Materialmente la hoja de aseveración es cualquier superficie en la que se pueda diagramar:</p>
+<!-- > "*It is agreed that a certain sheet, or blackboard, shall, under the name of The Sheet of Assertion, be considered as representing the universe of discourse, and as asserting whatever is taken for granted between the graphist and the interpreter to be true of that universe. The sheet of assertion is, therefore, a graph.*" (CP 4.397, Syllabus, 1903) -->
+<blockquote class="blockquote">
+<p>“<em>Tenemos que acordar que cierta hoja, o pizarra, bajo el nombre de La Hoja de Aseveración, considerándola como aquello que representa el universo del discurso, y aseverando cualquier cosa que sea tomada por supuesto entre el grafísta y el intérprete que sea verdadero de dicho universo. La hoja de aseveración es, por tanto, un gráfico</em>.” (CP 4.397, Syllabus, 1903)</p>
+</blockquote>
+<p>Esta superficie va a portar las características de ser considerada el universo del discurso. Dicho universo del discurso tiene que ser entendido de un modo lógico.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> Aquí se va a considerar todos los supuestos necesarios para poder realizar los diagramas entre el grafista y el intérprete. Por ejemplo, tomando el caso 1 de la <a href="#sec-caso-1" class="quarto-xref"><span>Sección 5.1</span></a>, los agentes dentro de ese universo ya tiene la referencia de quién es Martín y de qué es el tango. Por último, la hoja ya es un gráfico de por sí, está aseverando el universo de discurso por el cual se van a explicitar otras aseveraciones, marcando así de nuevo que la hoja de aseveración es condición de posibilidad para los gráficos existenciales.</p>
+<!-- - Hoja de aseveración como universo del discurso
+  - Toma lo supuestos de dicho universo entre los dos roles
+    - Ya se toma como aseverado dichos supuestos
+- La hoja de por sí es un gráfico -->
+<p>Ahora bien, ¿cuáles son las características de dicho universo? En un manuscrito de Peirce escrito en el mismo tiempo de preparación para sus <em>Lowell Lectures</em> afirma:</p>
+<!-- > "*The sheet on which the graphs are written (called the sheet of assertion), as well as each portion of it, is a graph asserting that a recognized universe is definite (so that no assertion can be both true and false of it), individual (so that any assertion is either true or false of it), and real (so that what is true and what false of it is independent of any judgment of man or men, unless it be that of the creator of the universe, in case this is fictive); and any graph written upon this sheet is thereby asserted of that universe; and any multitude of graphs written disconnectedly upon the sheet are all asserted of the universe*." (MS [R] 491, c 1903) -->
+<blockquote class="blockquote">
+<p>“<em>La hoja en la que los gráficos son escritos (llamada hoja de aseveración), como cada una de sus partes, es un gráfico que asevera que un reconocido universo es definido (por lo que ninguna aseveración puede ser verdadera y falsa a la vez), individual (por lo que cada aseveración o es verdadera o es falsa) y real (lo que es verdadero y lo que es falso es independiente de cualquier juicio de un hombre o hombres, a menos que el creador del universo, en este caso es ficticio); y cualquier gráfico escrito sobre la hoja es por tanto aseverado de ese universo; cualquier multitud de gráficos escritos desconectadamente sobre la hoja son todos aseveraciones de dicho universo</em>” (MS [R] 491, c 1903)</p>
+</blockquote>
+<p>Las características de universo <em>definido</em> e <em>individual</em> hacen que el universo se corresponda con un universo del discurso de la lógica clásica ya que se mantienen el principio de no contradicción y el principio del tercer excluido.</p>
+<!-- Características de la hoja de aseveración:
+1. Universo definido
+1. Universo individual
+1. Universo real (permite también los universos ficticios) -->
+<!-- Hoja fémica
+> "*The matter which the Graph-instances are to determine, and which thereby becomes the Quasi-mind in which the Graphist and Interpreter are at one, being a Seme of The Truth, that is, of the widest Universe of Reality, and at the same time, a Pheme of all that is tacitly taken for granted between the Graphist and Interpreter, from the outset of their discussion, shall be a sheet, called the Phemic Sheet, upon which signs can be scribed and from which any that are already scribed in any manner (even though they be incised) can be erased*." (CP 6.663. PAP, 1906) -->
+<!-- Supuestos de la hoja de aseveración -->
+<p>La presentación dada por el propio Peirce tiene algunos supuestos por detrás, sobre todo en referencia a la notación de los gráficos existenciales<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>:</p>
+<!-- Lo que supone la aseveración, teniendo en consideración lo notacional dentro de la hoja de aseveración, son los siguientes puntos: -->
+<ol type="1">
+<li>Un “pensamiento” tiene el mismo contenido si alguien lo asevera o no; una proposición puede ocurrir en el discurso aseverado o no y, aun así, reconocerse como una misma proposición (“Punto Geach”) <span class="citation" data-cites="pietarinen2017">(<a href="#ref-pietarinen2017" role="doc-biblioref">Pietarinen y Bellucci 2017-12-01, 2</a>)</span>.</li>
+<li>La distinción entre una ocurrencia aseverada y una que no lo es tiene que ser explicitada notacionalmente (“Punto Dudman”) <span class="citation" data-cites="pietarinen2017">(<a href="#ref-pietarinen2017" role="doc-biblioref">Pietarinen y Bellucci 2017-12-01, 2</a>)</span>.</li>
+<li>Cuando algo es aseverado, lo que es aseverado es la conectiva principal de la fórmula (“Punto Peano”) <span class="citation" data-cites="pietarinen2017">(<a href="#ref-pietarinen2017" role="doc-biblioref">Pietarinen y Bellucci 2017-12-01, 5</a>)</span>.</li>
+</ol>
+<p>Llevado al plano físico, la hoja de aseveración podría ser perfectamente la pizarra del caso 2 (<a href="#sec-caso-2" class="quarto-xref"><span>Sección 5.2</span></a>) donde se afirman todas las proposiciones que sean posibles dentro del universo del discurso en que se encuentran los agentes (el declarante y el interprete). Una pizarra es un buen ejemplo de una hoja de aseveración concreta. De hecho, la situación de la <a href="#sec-caso-2" class="quarto-xref"><span>Sección 5.2</span></a> es de alguna manera la situación paradigmática del trabajo de los gráficos existenciales.</p>
+<p>Ya habiendo definido y analizado la aseveración y la hoja de aseveración podemos intentar de dar una respuesta a la pregunta del trabajo.</p>
+</section>
+<section id="qué-es-al-final-la-hoja-de-aseveración" class="level1">
+<h1>Qué es, al final, la hoja de aseveración</h1>
+<p>La hoja de aseveración no es, como algunos lógicos podrían llegar a considerar, lo siempre verdadero o lo verdadero fregeano (el top [<span class="math inline">\(\top\)</span>]). No es un objeto lógico, sino más bien un objeto lógico-semiótico. Es el espacio donde es posible aseverar y aquello que se asevera se encuentra considerado verdadero. Es un espacio donde se encuentran todas las posibles aseveraciones de una manera coligada, yuxtapuestas, de un modo conjuntivo<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> a menos que se diagrame un <em>scroll</em>. Dado este caso, en la hoja de aseveración aparece una <em>ilatio</em>, una relación de consecuencia o una implicación (dependiendo de como se lo interprete).</p>
+<p>Una manera posible de expresar la hoja de aseveración en lenguaje simbólico sería: “<span class="math inline">\('\Gamma, \Delta, \Omega ...'\)</span> <em>son verdaderas y me hago responsable de su verdad</em>” <!-- $'\Gamma, \Delta, \Omega ...'\space son \space verdaderas \space y \space me \space hago \space responsable \space de \space su \space verdad$ --> donde las letras mayúsculas griegas son un posible gráfico (o un conjunto de gráficos).<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a></p>
+<p>Acerca de la responsabilidad o de “hacerse responsable” es que el grafista tiene la posibilidad de mostrar razones o justificaciones para que <span class="math inline">\('\Gamma, \Delta, \Omega ...'\)</span> sea, de hecho, verdadero. Muchas veces esas razones pueden ser los mismo gráficos, aquellos gráficos que son <em>argumentos</em> (en el sentido peirceano de la clasificación de signos) y que, gracias a las reglas de transformación, el grafista lleva al interprete a la conclusión por medio de las premisas. En otros casos, será introducir nuevos gráficos para sostener las proposiciones que se inscribieron en la hoja.</p>
+<p>De esta manera, la hoja de aseveración permite, en el plano lógico, mantener el carácter dialógico de la aseveración y otorga dicho carácter a los razonamientos y, por transitividad, a los gráficos existenciales. Esto puede corroborarse en la siguiente cita:</p>
+<!-- > "*A certain sheet, called the sheet of assertion, is appropriated to the drawing upon it of such graphs that whatever may be at any time drawn upon it, called the entire graph, shall be regarded as expressing an assertion by an imaginary person, called the graphist, concerning a universe, perfectly definite and entirely determinate, but the arbitrary creation of an imaginary mind, called the grapheus*." (CP 4.432, c 1903) -->
+<blockquote class="blockquote">
+<p>“<em>Una cierta hoja, llamada la hoja de aseveración, es apropiada para dibujar sobre ella gráficos que cualquiera estos sean, en cualquier momento se puede dibujar sobre él, denominado el gráfico total, va a considerarse como expresar una aseveración de una persona imaginaria, llamada el grafísta, concerniente a un universo, definido perfectamente y determinado enteramente, pero la creación arbitraria de una mente imaginaria, llamada el grapheus</em>.” (CP 4.432, c 1903)</p>
+</blockquote>
+</section>
+<section id="conclusiones" class="level1">
+<h1>Conclusiones</h1>
+<p>En este presenten trabajo he partido de dos análisis: por un lado, un análisis de la noción de aseveración para Peirce y, por otro lado, un análisis de la hoja de aseveración de los gráficos existenciales para dar cuenta de una noción más “unificada” de ambos conceptos. Aunque <em>prima facie</em> no parecen ser las mismas nociones, teniendo en cuenta las consideraciones de confección, conformación y presentación dialógica de los gráficos existenciales, las aseveraciones tiene el mismo carácter, es decir, quien realiza la aseveración tiene la responsabilidad de la verdad de la proposición aseverada para quien interpreta a los gráficos. Para que esto suceda, mi propuesta es que la hoja de aseveración es un objeto lógico-semiótico que otorga las condiciones de posibilidad para realizar las aseveraciones de un modo diagramático.</p>
+<p>Hay que aclarar que, dada la amplitud de la semiótica de Peirce, y de las múltiples clasificaciones de los signos que realizó a lo largo del desarrollo de su semiótica, hay ciertas proposiciones que en este trabajo no he considerado. Algunas de ellas son las que analiza en su <em>Minute Logic</em> y en la presentación de la fundación Carnegie (<em>logic as semiotics</em>). Me detengo sobre todo en las proposiciones que son simbólicas porque considero que en la hoja de aseveración (sobre todo en los gráficos <em>alfa</em>) son el tipo de proposiciones que más aparecen, o de las que más ha trabajado Peirce y aquellos que se han dedicado a estudiar los gráficos existenciales.<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a></p>
+<p>Para futuras investigaciones la puerta queda abierta para el paso de la hoja de aseveración a la hoja <em>phémica</em>. Los gráficos existenciales se amplían a todo tipo de acto de habla, ya no solo a los aseverativos. Así también, se expande la capacidad de realizar razonamientos lógicos y análisis lógicos propiamente dichos. Un razonamiento no es necesario que tenga ya solo una estructura asertiva, sino que, como lo sugiere Peirce en la utilización de las denominadas “tinturas”, hay una estructura formal lógica en otro tipo de actos de habla. Es decir, la misma pregunta se podría hacer ya no respecto de cómo se configura el acto de habla aseverativo, sino otros tipos de actos de habla dentro de los gráficos existenciales. Otra consideración posible es la de tomar otras características del universo del discurso y poder indagar las consecuencias de ello, ya que, como se nombró antes, el universo del discurso de Peirce en la hoja de aseveración sostiene dos principios fundamentales para la lógica clásica, como lo son el de tercer excluido y de no contradicción. Algo interesante de ver es si modificando algunas de esas características nos podemos a acercar algo como a la lógica trivaluada de Peirce<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a>, la cual la gran mayor parte de su desarrollo se encuentra realiza a través del álgebra.</p>
+<!--  -->
+</section>
+<section id="referencias" class="level1 unnumbered">
+<h1 class="unnumbered">Referencias</h1>
+<!-- # Bibliografía {.unnumbered} -->
+<!---->
+<!-- ::: {#refs} -->
+<!-- ::: -->
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-bellucci2018" class="csl-entry" role="listitem">
+Bellucci, Francesco. 2018. <em>Pierce’s Speculative Grammar: Logic as Semiotics</em>. Routledge Studies En <span>American</span> Philosophy 11. <span>London New York</span>: <span>Routledge, Taylor &amp;Francis Group</span>.
+</div>
+<div id="ref-brandom1983" class="csl-entry" role="listitem">
+Brandom, Robert. 1983. <span>«Asserting»</span>. <em>Noûs</em> Vol. 17, No. 4: 637-50.
+</div>
+<div id="ref-chandrasekaran2011" class="csl-entry" role="listitem">
+Chandrasekaran, Balakrishnan. 2011-08-01. <span>«When Is a Bunch of Marks on Paper a Diagram? <span>Diagrams</span> as Homomorphic Representations»</span> 2011 (186): 69-87. <a href="https://doi.org/10.1515/semi.2011.046">https://doi.org/10.1515/semi.2011.046</a>.
+</div>
+<div id="ref-fisch1966" class="csl-entry" role="listitem">
+Fisch, Max, y Atwell Turquette. 1966. <span>«Peirce’s <span>Triadic Logic</span>»</span>. <em>Transactions of the Charles S. Peirce Society</em> 2 (2): 71-85. <a href="https://www.jstor.org/stable/40319524">https://www.jstor.org/stable/40319524</a>.
+</div>
+<div id="ref-hynes2016" class="csl-entry" role="listitem">
+Hynes, Catalina. 2016. <span>«El Problema de La Unidad de La Noción Peirceana de Verdad»</span>. En <em>Charles <span>S</span>. <span>Peirce</span>. <span>Ciencia</span>, Filosofía y Verdad</em>, 83-94. <span>San Miguel de Tucumán, Tucumán, Argentina</span>: <span>La Monteagudo</span>.
+</div>
+<div id="ref-iglesias2017" class="csl-entry" role="listitem">
+Iglesias, Jaime Alfaro. 2017-07-18. <span>«La visión pragmatista de C.S. Peirce sobre la aserción»</span>. <em>Daimon Revista Internacional de Filosofia</em>, n.º 71, 71 (2017-07-18): 123-36. <a href="https://doi.org/10.6018/daimon/237661">https://doi.org/10.6018/daimon/237661</a>.
+</div>
+<div id="ref-lane1999" class="csl-entry" role="listitem">
+Lane, Robert. 1999. <span>«Peirce’s <span>Triadic Logic Revisited</span>»</span>. <em>Transactions of the Charles S. Peirce Society</em> 35 (2): 284-311. <a href="https://www.jstor.org/stable/40320762">https://www.jstor.org/stable/40320762</a>.
+</div>
+<div id="ref-legg2008a" class="csl-entry" role="listitem">
+Legg, Catherine. 2008. <span>«Making It Explicit and Clear: From <span>“Strong”</span> to <span>“Hyper-”</span> Inferentialism in <span>Brandom</span> and <span>Peirce</span>»</span>. <em>Metaphilosophy</em> 39 (1): 105-23. <a href="https://doi.org/10.1111/j.1467-9973.2008.00527.x">https://doi.org/10.1111/j.1467-9973.2008.00527.x</a>.
+</div>
+<div id="ref-odland2020" class="csl-entry" role="listitem">
+Odland, Brent C. 2020-06-22. <span>«Peirce’s <span>Triadic Logic</span>: <span>Continuity</span>, <span>Modality</span>, and <span>L</span>»</span>, 2020-06-22. <a href="https://doi.org/10.11575/PRISM/37964">https://doi.org/10.11575/PRISM/37964</a>.
+</div>
+<div id="ref-oostra2007" class="csl-entry" role="listitem">
+Oostra, Arnold. 2007. <span>«La lógica trivaluada de Charles Sanders Peirce»</span>. En <em>XVIIII Encuentro de geometría y de aritmética</em>. <span>Bogotá</span>.
+</div>
+<div id="ref-pagin2007" class="csl-entry" role="listitem">
+Pagin, Peter. 2007-01-22. <span>«Assertion»</span>, 2007-01-22. <a href="https://plato.stanford.edu/archives/spr2015/entries/assertion/">https://plato.stanford.edu/archives/spr2015/entries/assertion/</a>.
+</div>
+<div id="ref-peirce1906" class="csl-entry" role="listitem">
+Peirce, Charles S. 1906. <span>«Prolegomena to an <span>Apology</span> for <span>Pragmaticism</span>»</span>. <em>The Monist</em> 16 (4): 492-546.
+</div>
+<div id="ref-peirce1931" class="csl-entry" role="listitem">
+———. 1931. <em>Collected Papers</em>. <span>Cambridge: Belknap Press of Harvard University Press</span>.
+</div>
+<div id="ref-peirce1976" class="csl-entry" role="listitem">
+———. 1976. <em>The New Elements of Mathematics, Vol. <span>IV</span>: <span>Mathematical</span> Philosophy</em>. Editado por Carolyn Eisele. <span>The Hague</span>: <span>Mouton Publishers</span>.
+</div>
+<div id="ref-pietarinen2020a" class="csl-entry" role="listitem">
+Peirce, Charles Sanders. 2019. <em>History and Applications</em>. Editado por Ahti-Veikko Pietarinen. <span>De Gruyter</span>. <a href="https://doi.org/doi:10.1515/9783110651409">https://doi.org/doi:10.1515/9783110651409</a>.
+</div>
+<div id="ref-pietarinen2021b" class="csl-entry" role="listitem">
+———. 2021a. <em>The 1903 Lowell Lectures</em>. Editado por Ahti-Veikko Pietarinen. <span>De Gruyter</span>. <a href="https://doi.org/doi:10.1515/9783110740462">https://doi.org/doi:10.1515/9783110740462</a>.
+</div>
+<div id="ref-pietarinen2021a" class="csl-entry" role="listitem">
+———. 2021b. <em>The Logical Tracts</em>. Editado por Ahti-Veikko Pietarinen. <span>De Gruyter</span>. <a href="https://doi.org/doi:10.1515/9783110651423">https://doi.org/doi:10.1515/9783110651423</a>.
+</div>
+<div id="ref-peirce1977" class="csl-entry" role="listitem">
+Peirce, Charles Sanders, y Lady Victoria Welby. 1977. <em>Semiotic and <span>Significs</span>: <span>The Correspondence Between Charles S</span>. <span>Peirce</span> and <span>Lady Victoria Welby</span></em>. <span>Indiana University Press</span>. <a href="https://books.google.com?id=BNphAAAAMAAJ">https://books.google.com?id=BNphAAAAMAAJ</a>.
+</div>
+<div id="ref-pietarinen2017" class="csl-entry" role="listitem">
+Pietarinen, Ahti-Veikko, y Francesco Bellucci. 2017-12-01. <span>«Assertion and Denial: <span>A</span> Contribution from Logical Notations»</span>. <em>Journal of Applied Logic</em> 25 (2017-12-01): 1-22. <a href="https://doi.org/10.1016/j.jal.2017.01.001">https://doi.org/10.1016/j.jal.2017.01.001</a>.
+</div>
+<div id="ref-quine1949" class="csl-entry" role="listitem">
+Quine, W. V. O. 1949. <span>«Truth by Convention»</span>. En <em>Reading in Philosophical Analysis</em>, editado por Feigl Herbert y Sellars Wilfrid. <span>Appleton Century Crofts Inc.</span>
+</div>
+<div id="ref-roberts1973" class="csl-entry" role="listitem">
+Roberts, Don D. 1973. <em>The Existential Graphs of Charles s. <span>Peirce</span></em>. <span>The Hague: Mouton</span>.
+</div>
+<div id="ref-robin1971" class="csl-entry" role="listitem">
+Robin, Richard S. 1971. <span>«The Peirce Papers: <span>A</span> Supplementary Catalogue»</span>. <em>Transactions of the Charles S. Peirce Society</em> 7 (1): 37-57.
+</div>
+<div id="ref-turquette1967" class="csl-entry" role="listitem">
+Turquette, Atwell R. 1967. <span>«Peirce’s <span>Phi</span> and <span>Psi Operators</span> for <span>Triadic Logic</span>»</span>. <em>Transactions of the Charles S. Peirce Society</em> 3 (2): 66-73. <a href="https://www.jstor.org/stable/40319532">https://www.jstor.org/stable/40319532</a>.
+</div>
+<div id="ref-zalamea2010" class="csl-entry" role="listitem">
+Zalamea, Fernando. 2010. <em>Los Gráficos Existenciales Peirceanos: <span>Sistema</span> de Lógicas Diagramáticas Del Continuo: <span>Horosis</span>, Tránsitos, Reflejos, Fodos</em>. <span>Bogotá</span>: <span>Universidad Nacional de Colombia</span>.
+</div>
+<div id="ref-zeman1964" class="csl-entry" role="listitem">
+Zeman, J. J. 1964. <em>The Graphical Logic of c. <span>S</span>. <span>Peirce</span></em>. <span>University of Chicago.</span>
+</div>
+</div>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Para una presentación de los gráficos existenciales realizada por el propio Peirce véase <span class="citation" data-cites="peirce1906">Charles S. Peirce (<a href="#ref-peirce1906" role="doc-biblioref">1906</a>)</span>. Para una presentación más sistemática de los mismos véase <span class="citation" data-cites="roberts1973">Roberts (<a href="#ref-roberts1973" role="doc-biblioref">1973</a>)</span>, <span class="citation" data-cites="zeman1964">Zeman (<a href="#ref-zeman1964" role="doc-biblioref">1964</a>)</span> y <span class="citation" data-cites="zalamea2010">Zalamea (<a href="#ref-zalamea2010" role="doc-biblioref">2010</a>)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Aunque muchos cursos si enseñan diagramas de Venn que tampoco consideran al soporte físico como parte del sistema lógico.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Para poder entrar en más detalle acerca de esto véase <span class="citation" data-cites="chandrasekaran2011">Chandrasekaran (<a href="#ref-chandrasekaran2011" role="doc-biblioref">2011-08-01</a>)</span>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Dentro de la filosofía contemporánea esta noción puede ser encontrada en <span class="citation" data-cites="brandom1983">Brandom (<a href="#ref-brandom1983" role="doc-biblioref">1983</a>)</span>. Para ver la relación entre Peirce y Brandom véase <span class="citation" data-cites="legg2008a">Legg (<a href="#ref-legg2008a" role="doc-biblioref">2008</a>)</span>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>De esta manera Peirce se diferencia de las consideraciones psicologistas del siglo XIX y también de la postura de ciertos lógicos como Frege.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Esto se ve claramente en <span class="citation" data-cites="pietarinen2020a">(<a href="#ref-pietarinen2020a" role="doc-biblioref">Charles Sanders Peirce 2019, 202</a>)</span>.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Un apoyo de esto puede verse en (CP 1.666)<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Para un análisis completo acerca de las múltiples acepciones y discusiones acerca de si Peirce afirma <em>una</em> sola noción de verdad, véase <span class="citation" data-cites="hynes2016">Hynes (<a href="#ref-hynes2016" role="doc-biblioref">2016</a>)</span>.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Véase <span class="citation" data-cites="quine1949">Quine (<a href="#ref-quine1949" role="doc-biblioref">1949</a>)</span>.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Peirce parte de los desarrollos del concepto de universo del discurso de De Morgan.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Para un análisis más profundo acerca de lo implícito en la aseveración y la negación véase <span class="citation" data-cites="pietarinen2017">Pietarinen y Bellucci (<a href="#ref-pietarinen2017" role="doc-biblioref">2017-12-01</a>)</span><a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>A diferencia de los gráficos entitativos presentados en 1896 en <em>The Monist</em> donde la hoja de aseveración daba lugar a la disyunción.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>Algo interesante de notar aquí es que en la lógica simbólica se necesita la apelación a un metalenguaje para poder dar cuenta de la función de la hoja de aseveración.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>Cf. con <span class="citation" data-cites="bellucci2018">Bellucci (<a href="#ref-bellucci2018" role="doc-biblioref">2018</a>)</span>, 199.<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>Para una profundización de la lógica trivaluada de Peirce véase <span class="citation" data-cites="fisch1966">Fisch y Turquette (<a href="#ref-fisch1966" role="doc-biblioref">1966</a>)</span>, <span class="citation" data-cites="turquette1967">Turquette (<a href="#ref-turquette1967" role="doc-biblioref">1967</a>)</span>, <span class="citation" data-cites="lane1999">Lane (<a href="#ref-lane1999" role="doc-biblioref">1999</a>)</span>, <span class="citation" data-cites="oostra2007">Oostra (<a href="#ref-oostra2007" role="doc-biblioref">2007</a>)</span> y <span class="citation" data-cites="odland2020">Odland (<a href="#ref-odland2020" role="doc-biblioref">2020-06-22</a>)</span>.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+<p>Esta página es distribuida por la Universidad de Navarra y el GEP <a href="https://www.unav.es/gep/" class="uri">https://www.unav.es/gep/</a></p></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiado");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiado");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./de-boeck.html" class="pagination-link" aria-label="El carácter temporal de la mente y la aproximación a lo real en el proceso lógico de investigación">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">El carácter temporal de la mente y la aproximación a lo real en el proceso lógico de investigación</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./hugueth-vasquez.html" class="pagination-link" aria-label="Topos de Gráficos Existenciales sobre Superficies de Riemann">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Topos de Gráficos Existenciales sobre Superficies de Riemann</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

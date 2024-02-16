@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.550">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Angie Paola Hugueth-Vásquez">
+
+<title>IX Jornadas ‘Peirce en Argentina’ - 4&nbsp; Topos de Gráficos Existenciales sobre Superficies de Riemann</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./lucifora.html" rel="next">
+<link href="./gavriloff.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cortes-lopez.html">Artículos</a></li><li class="breadcrumb-item"><a href="./hugueth-vasquez.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Topos de Gráficos Existenciales sobre Superficies de Riemann</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">IX Jornadas ‘Peirce en Argentina’</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Buscar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentación</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Artículos</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cortes-lopez.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">El desarrollo de la semiótica de Charles Peircerealizado por Max Bense en Stuttgart</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./de-boeck.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">El carácter temporal de la mente y la aproximación a lo real en el proceso lógico de investigación</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./gavriloff.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">¿Qué es la hoja de aseveración?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hugueth-vasquez.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Topos de Gráficos Existenciales sobre Superficies de Riemann</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lucifora.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">El impacto de la inteligencia artificial en la semiosis humana desde la teoría de Peirce</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nubiola.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Presentación de Los viajes europeos de Charles S. Peirce, 1870-1883 de Sara Barrena y Jaime Nubiola</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./olezza.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Inteligencia artificial, semiosis y sistemas complejos</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./paniagua.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Aproximación a algunos procesos de mimetismo biológico desde el carácter pragmático de la semiótica peirceana.</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./poblete.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Concepciones metodológicas -ergo teóricas- sobre el razonamiento abductivo y el Pensamiento de Diseño (<em>Design Thinking</em>); la abducción recargada</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ramirez-figueroa.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Peirce y su interpretación anticipatoria del condicional <em>diodórico</em></span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sastre.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Los 10 tipos de signo en C.S. Peirce y su implicación en el proceso de toma de decisiones.</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./toledo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Condiciones para describir la forma lógica de la abducción</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./vargas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">La concepción peirceana de las falacias una presentación preliminar</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./visokolskis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Peirce en torno a mecanismos cognitivos con carga inferencial</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./zelis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">El psicoanálisis como ciencia horótica y c(i)enopitagórica</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#gráficos-existenciales-ge" id="toc-gráficos-existenciales-ge" class="nav-link" data-scroll-target="#gráficos-existenciales-ge">Gráficos Existenciales (GE)</a></li>
+  <li><a href="#superficies-de-riemann-sr" id="toc-superficies-de-riemann-sr" class="nav-link" data-scroll-target="#superficies-de-riemann-sr">Superficies de Riemann (SR)</a></li>
+  <li><a href="#topos-t" id="toc-topos-t" class="nav-link" data-scroll-target="#topos-t">Topos (T)</a></li>
+  <li><a href="#visión-combinatoria---categórica" id="toc-visión-combinatoria---categórica" class="nav-link" data-scroll-target="#visión-combinatoria---categórica">Visión Combinatoria - Categórica</a></li>
+  <li><a href="#el-topos-de-gráficos-existenciales-alfa-sobre-superficies-de-riemann-tgesr" id="toc-el-topos-de-gráficos-existenciales-alfa-sobre-superficies-de-riemann-tgesr" class="nav-link" data-scroll-target="#el-topos-de-gráficos-existenciales-alfa-sobre-superficies-de-riemann-tgesr">El Topos de Gráficos Existenciales (<span class="math inline">\(Alfa\)</span>) sobre Superficies de Riemann (TGESR)</a></li>
+  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cortes-lopez.html">Artículos</a></li><li class="breadcrumb-item"><a href="./hugueth-vasquez.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Topos de Gráficos Existenciales sobre Superficies de Riemann</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Topos de Gráficos Existenciales sobre Superficies de Riemann</span></h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Autor/a</div>
+  <div class="quarto-title-meta-heading">Afiliación</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Angie Paola Hugueth-Vásquez </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Universidad Nacional de Colombia
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Resumen</div>
+    Los gráficos existenciales de Peirce proveen un entendimiento geométrico de una variedad de lógicas (clásica, intuicionista, modal, primer orden). La interpretación geométrica se da en el plano, pero puede ser extendida a otras superficies (esfera, cilindro, toro, etc.) Yendo más allá, se pueden dibujar gráficos existenciales sobre superficies de Riemann arbitrarias, y, con la introducción de herramientas de geometría algebraica (haces, topos de Grothendieck, topos elementales), se pueden capturar las lógicas emergentes vía un nuevo Topos de Gráficos Existenciales sobre Superficies de Riemann y su clasificador de subobjetos. Ofrecemos algunas perspectivas (conceptos, definiciones, ejemplos, conjeturas) a lo largo de ese camino.
+  </div>
+</div>
+
+
+</header>
+
+
+<section id="introducción" class="level1 unnumbered">
+<h1 class="unnumbered">Introducción</h1>
+<p>Este trabajo<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> se sitúa en lo que podemos llamar una “geometrización de la matemática", o más concretamente, una <strong>geometrización de la lógica</strong>. Tal propuesta se sitúa en un panorama matemático que se encuentra regido por los <em>topos de Grothendieck</em>, los cuales, tras su tránsito a <em>topos elementales</em>, abren el estudio de diversas lógicas particulares. Por otro lado, los <em>gráficos existenciales</em> de Peirce ofrecen una profunda visión topológica de la lógica, construida sobre transformaciones locales de curvas de Jordan a través del plano complejo. Esta perspectiva se ha ampliado en la última década, con la aparición de gráficos existenciales sobre superficies no planas (esfera, cilindro, toro), donde las herramientas geométricas adquieren mayor preponderancia. Utilizando entonces técnicas de <em>haces</em> y <em>topos</em>, aplicadas a conceptos sobre <em>superficies de Riemann</em>, obtenemos una visión de gráficos existenciales alternativos, relacionados con propiedades intrínsecas y extrínsecas, locales y globales, de las lógicas geométricas asociadas.</p>
+</section>
+<section id="gráficos-existenciales-ge" class="level1">
+<h1>Gráficos Existenciales (GE)</h1>
+<p>Al recorrer los gráficos existenciales (GE) sobre el plano, sus construcciones básicas, sus reglas y la unicidad de sus axiomatizaciones, obtenemos una variedad de lógicas asociadas, mediante una presentación enteramente diagramática, coherente y unitaria. Los modelos <span class="math inline">\(Alfa\)</span> y <span class="math inline">\(Beta\)</span> de (GE) constituyen por sí mismos un tratamiento completo (Roberts 1992)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> y consistente de la lógica elemental (clásica y de primer orden, respectivamente) (Roberts 1963)<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. Desarrollos posteriores proponen un nivel <span class="math inline">\(Gama\)</span> asociado al razonamiento fuera de la lógica clásica, que cubre no sólo el dominio modal (Zeman 1964)<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>, sino también algunas lógicas de orden superior. Con ciertas transformaciones adicionales en la sintaxis, estos (GE) se han extendido también hacia la lógica intuicionista, mediante un modelo <span class="math inline">\(Alfa*\)</span> (Oostra 2010)<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, correspondiendo al hecho de que una semántica natural para la lógica intuicionista viene dada por los espacios topológicos (Tarski 1938)<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./attachments/Imagenes/EGsystemsTopThinking.png" class="img-fluid figure-img"></p>
+<figcaption>(GE) - Arquetipos del pensamiento (topo)lógico</figcaption>
+</figure>
+</div>
+<p>Así, con reglas uniformes y ligeras variaciones en los signos, obtenemos una imagen amplia de la lógica a partir de la geometría (ver <em>Figura 1</em>). Dentro de este sistema (GE), el lenguaje se da mediante letras proposicionales y su combinación con curvas cerradas (cortes) entendidas como negaciones. Tales elementos (afirmaciones y cortes) se sitúan en un fondo continuo (inicialmente, un plano complejo) y la deducción se manifiesta bajo deformaciones suaves en curvas y permisos duales como escritura/borrado, iteración/desiteración, o doble corte, dados en función del nivel y de la paridad en áreas asociadas a los cortes en los gráficos. Una forma precisa de lectura proporciona una interpretación unívoca, denominada <em>método endoporéutico</em> (Pietarinen 2004)<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>, cuya especificidad y potencia técnica se obtienen gracias a la operación de (des)iteración.</p>
+<p>Mediante un pensamiento topológico, los diversos sistemas derivados <span class="math inline">\(Alfa\)</span>, <span class="math inline">\(Alfa*\)</span>, <span class="math inline">\(Beta\)</span>, <span class="math inline">\(Gama\)</span> son guiados por conductas transversales en las que intervienen las reglas sintácticas y su posterior clarificación semántica. Esto unifica las diversas nociones empleadas en los subsistemas y les confiere un significado universal en un sistema lógico como un todo (GE), que es consistente y completo. Las mediaciones están guiadas por un motivo integral clarificado en los signos involucrados (corte, rizo, línea de identidad y corte quebrado), siguiendo un sistema uniforme de reglas, que da un sentido coherente al pensamiento lógico.</p>
+<p>Por otro lado, siguiendo los trabajos de Oostra y su escuela en Ibagué, obtenemos una descripción del comportamiento de las lógicas internas asociadas a algunas superficies no planas, a través de un desglose técnico de propiedades topológicas (geométricas), allende las negaciones como curvas complejas trazadas sobre la superficie de cada variedad (Oostra 2018)<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>. El despliegue de las fórmulas sobre dos dimensiones debería poder completarse, ya que la bidimensionalidad no está reservada al plano. Por ejemplo, podemos pensar en la esfera, el cilindro, el toro y, de manera más general, en una superficie de Riemann, sobre las que podemos elucidar nuevas vías lógicas, que habrían permanecido invisibles desde la perspectiva plana.</p>
+<p>Gracias a ello, se configura un tránsito natural entre dos o más áreas de las matemáticas, y se genera una cuestión fundamental de carácter dual que involucra la sintaxis, la semántica y la pragmática de las lógicas asociadas a gráficos existenciales sobre superficies: ¿Cómo podemos asociar a lógicas conocidas, el resultado de la mutación de sistemas lógicos a través de una superficie? y, recíprocamente, ¿Cómo podemos hacer corresponder a una lógica dada un sistema adecuado en gráficos existenciales sobre una superficie concreta? (Oostra 2022)<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>. Así, en el espacio existente entre el estudio de los Sistemas Lógicos y la comprensión de la Naturaleza de las Superficies, surgen las múltiples Variaciones de Gráficos Existenciales.</p>
+<p>Al situar las negaciones en entornos complejos, estas captan la naturaleza geométrica de la variedad, y en algunos casos necesitamos restricciones o reglas adicionales para mantener el sentido y la coherencia de los nuevos gráficos <span class="math inline">\(Alfa\)</span>. Por ejemplo, para preservar las nociones de paridad y nivelación, asociadas a entornos que permitan la (des)iteración y el uso de las reglas de inferencia del sistema, necesitamos la adición de nuevos conceptos que posibiliten sus interpretaciones. En este sentido, una noción de oposición permite distinguir lógicamente dos regiones separadas por una curva en la superficie, que en principio son topológicamente indistinguibles (pero cuyo contenido de verdad es la negación de lo que hay al otro lado de la curva), pues tal curva puede deformarse suavemente en la superficie y configurar un nuevo cerramiento, como en el caso de la esfera. Observamos que, si no delimitamos el entorno, podemos llegar a deducciones contradictorias a partir de cualquier gráfico, hecho que se ilustra en la siguiente figura:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./attachments/Imagenes/FalseMPespaÃ±ol.png" class="img-fluid figure-img"></p>
+<figcaption>Distorsión de una deducción</figcaption>
+</figure>
+</div>
+<p>Introduciendo nuevas condiciones, proporcionando interpretaciones precisas para ciertas clases de curvas problemáticas, y añadiendo restricciones sobre las superficies (respecto a las curvas no contractibles), los gráficos existenciales <span class="math inline">\(Alfa\)</span> pueden ser modelados sobre la esfera, el cilindro, la banda de Möbius o el toro. En este último caso, por ejemplo, se pueden dibujar en su superficie <span class="math inline">\(3\)</span> clases diferentes de curvas salvo isomorfismo, y sólo una de ellas será contractible, es decir, el mapa del círculo unitario a la superficie que dibuja la curva en cuestión, que resulta ser homotópico a una función constante. Estas curvas son compatibles con las transformaciones habituales (GE), generando una versión alternativa y equivalente de la lógica proposicional clásica, como ocurre con los gráficos existenciales <span class="math inline">\(Alfa\)</span> en el plano (Oostra 2020)<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a>. Existen diversas clases de curvas en cada superficie, en función de su naturaleza geométrica, y cada una de estas corresponde a un <em>tipo de negación</em> en la superficie, caracterizadas en razón de su contractibilidad y su localidad a nivel topológico. En particular, una curva contractible está aparentemente asociada al dominio clásico, y una curva no contractible está asociada a ámbitos más allá de la lógica clásica. Podemos así vislumbrar que, tomando todas las negaciones (locales y globales, ver <em>Sección 2</em>) asociadas a curvas arbitrarias presentes sobre superficies localmente homeomorfas a <span class="math inline">\(\mathbb{C}\)</span>, podemos abrir una senda a nuevas lógicas.</p>
+</section>
+<section id="superficies-de-riemann-sr" class="level1">
+<h1>Superficies de Riemann (SR)</h1>
+<p>Para formalizar estas extensiones es útil pasar por las superficies de Riemann (SR), ya que éstas encarnan las condiciones de suavidad y continuidad necesarias para un despliegue de nuestros gráficos. Además, el uso de (SR) resulta coherente tanto con las definiciones clásicas de Peirce, como con la bibliografía posterior no clásica. Llegamos a un contexto que contiene entornos locales isomorfos al plano, pero que al mismo tiempo admite singularidades donde la superficie se extiende a través de sus puntos de ramificación, o sus polos. La plenitud geométrica de la variable compleja impulsa entonces la posibilidad de potenciar conceptos lógicos a través de nuevas geometrías.</p>
+<p>Algunas de estas geometrías corresponden a los tres arquetipos de geometrías codificados en el siglo XIX: la geometría parabólica (modelo de Euclides), la geometría hiperbólica (modelo de Poincaré) y la geometría elíptica (modelo de Riemann), que provienen de la aplicación de espacios cocientes sobre el plano, el disco y la esfera respectivamente. Estos modelos se recogen en la descripción hecha anteriormente mediante gráficos, y gracias al Teorema de Uniformización de Riemann, sabemos que corresponden a una alternativa exclusiva, ya que toda superficie de Riemann simplemente conexa (“sin agujeros”) surge, salvo homeomorfismo, de una de estas tres posibilidades (Zalamea 2020)<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>.</p>
+<p>Hermann Weyl mostró que una superficie de Riemann puede definirse como la complejización natural de una superficie topológica. Su definición se da en tres pasos (Zalamea 2022)<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a>:</p>
+<ol type="1">
+<li><p>Una <em>variedad</em> topológica <span class="math inline">\(2\)</span>-dimensional <span class="math inline">\(X\)</span> es un espacio topologico de Hausdorff donde todo punto posee una vecindad homeomorfa a un abierto de <span class="math inline">\(\mathbb{R}^2\)</span>;</p></li>
+<li><p>Una <em>estructura compleja</em> sobre <span class="math inline">\(X\)</span> consiste en un “atlas", o familia de”mapas", <span class="math inline">\(\{(U_{i},\varphi_{i}): i \in I\}\)</span> tal que <span class="math inline">\(U_{i}\)</span> es abierto en <span class="math inline">\(X\)</span>, el atlas recubre <span class="math inline">\(X\)</span> (<span class="math inline">\(\bigcup_{i \in I} U_i = X\)</span>), los mapas son fieles (<span class="math inline">\(\varphi_i : U_i \to \varphi (U_i)^{\rm abierto} \subseteq \mathbb{C}\)</span> es homeomorfismo), y los tránsitos son analíticos (para cada par de mapas <span class="math inline">\((U_i, \varphi_i )\)</span>, <span class="math inline">\((U_j, \varphi_j )\)</span>, <span class="math inline">\(\varphi_j \circ \varphi_i^{-1}: \varphi_i (U_i \cap U_j) \to \varphi_j (U_i \cap U_j)\)</span> es holomorfa);</p></li>
+<li><p>Una <strong>superficie de Riemann</strong> (SR) se define entonces como una variedad topológica 2-dimensional conexa <span class="math inline">\(X\)</span> con una estructura compleja sobre <span class="math inline">\(X\)</span>.</p></li>
+</ol>
+<p>Como las funciones de transición entre los mapas son analíticas, estas deben cumplir las condiciones de Cauchy-Riemann (Needham 1997)<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>, y por lo tanto su Jacobiano es mayor que cero. Así, el hecho de que las cartas sean compatibles fuerza una orientación sobre la variedad: toda (SR) resulta ser orientable (Kumaresan 2002)<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a>. Otra noción fundamental en superficies es el <em>género</em>, definido como el número mínimo de cortes (menos 1) que desconectan la superficie (Ahlfors 1953)<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a>. El género proporciona un invariante intrínseco (geométrico-topológico) de la superficie: se obtiene gracias a recorridos sobre la superficie, sin salirse de ella. Un resultado matemático profundo capturado a través de tal concepto es el <em>Teorema de Riemann-Roch</em>, que permite reconstruir el género de una (SR) como invariante extrínseco (diferencial-complejo) de la superficie: saliendo de la superficie y comparándola de múltiples maneras (funciones holomorfas y meromorfas) con su entorno.</p>
+<p>Una vez el panorama complejo y diferencial ha sido elucidado, a través de la caracterización dual de las propiedades lógicas y geométricas de las superficies, proponemos una nueva distinción lógica. Las <strong>negaciones locales y globales</strong> sobre una superficie (ver <em>Definición <a href="#defneglocglob" data-reference-type="ref" data-reference="defneglocglob">1</a></em> a continuación), dependerán de la naturaleza de las curvas asociadas, puesto que en superficies arbitrarias localmente homeomorfas a <span class="math inline">\(\mathbb{C}\)</span> las curvas de Jordan permiten captar formas de negación en los (GE).</p>
+<div id="defneglocglob" class="definition">
+<p><strong>Definición 1</strong> (Negaciones locales-globales).</p>
+<p><em>Dada una superficie de Riemann <span class="math inline">\(X\)</span>, diremos que una negación (asociada a una curva de Jordan <span class="math inline">\(C\)</span>) es <strong>local</strong> si existen un atlas para <span class="math inline">\(X\)</span> y una vecindad <span class="math inline">\(V\)</span> en el atlas tales que <span class="math inline">\(C \subseteq V\)</span> y <span class="math inline">\(C\)</span> es contractible (deformable homotópicamente a un punto en la vecindad). Por otro lado, diremos que la negación es <strong>global</strong> en caso contrario.</em></p>
+</div>
+<p>Al aplicar esta definición a algunas (SR) simples estudiadas desde los modelos de gráficos sobre superficies, emergen los siguientes hechos:</p>
+<p>- En el plano y en el disco, las nociones de localidad y globalidad coinciden, y toda negación es a la vez local y global.</p>
+<p>- En el cilindro, en cambio, las nociones de localidad y globalidad se distinguen; las negaciones sobre la superficie que no rodean al cilindro son locales; un giro entero al cilindro es en cambio una negación global, no local.</p>
+<p>- En la esfera, la localidad y la globalidad también se distinguen; las negaciones que quedan enteramente sumergidas en un lado del atlas son locales; por otro lado, una negación “maximal" (paralelo de tipo ecuatorial) no es localizable en una vecindad, y se trata de una negación global.</p>
+<p>- En el toro, de los tres tipos de negaciones vislumbrados, solo un tipo es local, mientras que los otros dos tipos (cortes longitudinales y transversales) son globales.</p>
+<p>Con estas nociones de localidad y globalidad, el comportamiento paradójico de la negación en la esfera puede explicarse parcialmente (ver <em>Figura <a href="#falseMP" data-reference-type="ref" data-reference="falseMP">1</a></em>). En efecto, en las deformaciones de una curva de Jordan en la esfera, una negación local y una negación global pueden identificarse accidentalmente: cuando una pequeña curva de Jordan en un lado del atlas migra hacia el otro del atlas, la negación pasa de ser local a global, para luego volver a lo local. Un sistema lógico que restrinja esos pasos (e.g., aceptando deformaciones solo dentro de lo local) podría entonces ayudar a eliminar el comportamiento contradictorio de la negación.</p>
+<p>Podemos introducir el concepto de <strong>lógica local y global</strong> (ver <em>Definición <a href="#defloglocglob" data-reference-type="ref" data-reference="defloglocglob">2</a>)</em>, para capturar toda una variedad de perspectivas: clásica, intermedia, intuicionista o paraconsistente. Más aún, el número de negaciones no clásicas en nuevas lógicas puede capturarse gracias al <em>género</em> de la superficie.</p>
+<div id="defloglocglob" class="definition">
+<p><strong>Definición 2</strong> (Lógica Local-Global).</p>
+<p><em>Una lógica de (GE) sobre (SR) es <strong>local</strong> si todas sus negaciones son locales. Una lógica es <strong>global</strong> si existe al menos una negación global en el sistema.</em></p>
+</div>
+<p>A partir de los hechos considerados sobre las negaciones en los diversos sistemas, planteamos la siguiente conjetura:</p>
+<div class="conjecture">
+<p><strong>Conjetura 1</strong> (Oostra-Zalamea-Hugueth).</p>
+<ul>
+<li><p><em>Toda lógica </em>local* de (GE) sobre una (SR) es (super)intuicionista.*</p></li>
+<li><p><em>La lógica </em>global* de (GE) sobre la esfera es paraconsistente.*</p></li>
+<li><p><em>Las lógicas de (GE) globales sobre (SR) de género <span class="math inline">\(n \geq 1\)</span> son no clásicas, con exactamente <span class="math inline">\(3n\)</span> nociones asociadas de “negación".</em></p></li>
+</ul>
+</div>
+<p>En el caso del género 0 (plano, disco o esfera, por el Teorema de Uniformización), las lógicas locales contemplan negaciones siempre reducibles a un punto sobre la superficie, como sucede en el caso intuicionista. En el caso del género 1 (toro) aparecen exactamente 3 nociones de negación, dos de las cuales (cortes longitudinales) no pueden ser reducibles a combinaciones de negaciones locales.</p>
+<p>Un breve esbozo de esta situación también se visualiza en la <em>Figura <a href="#twotor" data-reference-type="ref" data-reference="twotor">2</a></em>, caso que no fue estudiado a profundidad, pero que sirve para situarnos mejor en el entorno planteado y que podría quizás resultar como motivación para futuros trabajos. Notamos que sobre un toroide de dos agujeros (superficie de género 2), existen 6 clases de negaciones, ninguna de ellas deformable en la otra, de las cuales 5 no serán reducibles a un punto (puesto que son de tipo no contractible), y por tanto no estarán ligadas a combinaciones de negaciones locales.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./attachments/Imagenes/twotor.png" class="img-fluid figure-img"></p>
+<figcaption>6 clases de cortes sobre una (SR) de género 2, el toroide de 2 huecos</figcaption>
+</figure>
+</div>
+</section>
+<section id="topos-t" class="level1">
+<h1>Topos (T)</h1>
+<p>La continuación analítica en variable compleja muestra cómo los dominios de una función analítica dada pueden ser extendidos, definiendo valores adicionales que permitan escapar de posibles divergencias. Tenemos entonces una doble dialéctica entre funciones analíticas univaluadas (en vecindades locales) y funciones analíticas multivaluadas (en la variedad global considerada). Este paso puede ser resuelto si el pegamiento de las funciones es independiente de los caminos por los que son pegadas, i.e., si se tiene una expectativa de invarianza allende la multiplicidad, cosa que puede realizarse si la región es simplemente conexa (Teorema de Monodromía). Los haces (que son la extensión abstracta de la continuación analítica) nos proporcionan una visión dúctil para enlazar lo local y lo global, atravesando tanto los fundamentos precisos en topología que requiere nuestra propuesta, como también las herramientas del análisis complejo y las categorías. Esta perspectiva reconstruye el entendimiento de una variedad topológica o diferencial gracias a sus proyecciones en variedades inferiores y a la información coherente de sus fibras (Mac Lane, Moerdijk 1992)<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a>.</p>
+<p>Resulta entonces natural el tránsito a los topos de Grothendieck (TG), al tomar todos los haces sobre un sitio, es decir, un lugar con una extensión abstracta de topología. Un topos representa una conexión fuerte entre dos tendencias del pensamiento matemático (espacio y número), ahondando en las definiciones más antiguas de la matemática alrededor de lo continuo y lo discreto. Un “estudio sofisticado de las interacciones entre el espacio y el número" aparece, por un lado, en la geometría, que capta el espacio y, por otro, en la aritmética, que capta el número (Zalamea 2020)<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a>. Extendiendo la situación clásica de la topología, un <strong>topos de Grothendieck</strong> será precisamente, por definición, una categoría equivalente a una categoría de haces <span class="math inline">\(Sh(\mathbf{C}, J)\)</span> sobre un <em>sitio</em> <span class="math inline">\((\mathbf{C}, J)\)</span>, es decir, una categoría <span class="math inline">\(\mathbf{C}\)</span> junto con una <em>topología de Grothendieck</em> <span class="math inline">\(J\)</span> (una tal topología representa sintéticamente las propiedades de recubrimiento de los abiertos en topología usual: el espacio se recubre a sí mismo, cubrimiento de cubrimientos es cubrimiento, pullback de cubrimiento es cubrimiento). Un haz sobre el sitio es, intuitivamente, un prehaz que”pega bien" las secciones traslapables. Este buen pegamiento puede ser descrito en términos de propiedades de cubrimiento en “locales" (álgebras de Heyting completas, que codifican las propiedades del retículo de abiertos de una topología), cubrimientos que, a su vez, pueden caracterizarse por buenas propiedades de extensión.</p>
+<p>Los enlaces entre geometría algebraica y lógica pueden capturarse mejor a través de los topos elementales (TE), al considerar el clasificador de subobjetos del topos, herramienta que describe, precisa y formalmente, el comportamiento de la lógica inherente al topos en cuestión. Una categoría <span class="math inline">\(\mathcal{E}\)</span> es un <strong>topos elemental</strong> si posee límites finitos, es cartesiana cerrada (i.e., existen objetos exponenciales, con buenas propiedades de naturalidad, o, lo que es lo mismo, el funtor producto posee adjunto derecho), y, además, el funtor de subobjetos <span class="math inline">\(Sub : \mathcal{E}^{op} \rightarrow Con\)</span> es representable (o lo que es lo mismo, existe un <em>clasificador de subobjetos</em> <span class="math inline">\(\Omega\)</span> tal que <span class="math inline">\(Sub(A) \approx \mathcal{E}(A,\Omega)\)</span> es isomorfismo natural). Una intuición fundamental detrás de los topos es que estos actúan en la intersección de conceptos geométricos (Grothendieck) y lógicos (Lawvere)<a href="#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a>.</p>
+<p>En un topos de prehaces <span class="math inline">\(\mathcal{E} = {Con}^{\mathcal{C}^{op}}\)</span> el clasificador de subobjetos es forzado vía Yoneda: <span class="math inline">\(Sub(h_{A}) \approx \mathcal{E}(h_{A}, \Omega) = Nat(h_{A}, \Omega) \approx \Omega(A)\)</span>, por lo tanto, <span class="math inline">\(\Omega : \mathcal{C}^{op} \rightarrow Con\)</span> puede definirse por la correspondencia (en objetos) <span class="math inline">\(A \mapsto Sub(h_{A})\)</span> y (en morfismos) <span class="math inline">\((A \rightarrow B) \mapsto (\Omega_{f}: Sub(h_{A}) \rightarrow Sub(h_{B}))\)</span>. El lema de los pullbacks asegura que <span class="math inline">\(\Omega_{f}\)</span> es funtor, la transformación resulta ser natural, y <span class="math inline">\(\Omega\)</span> está bien definido. Como la inmersión de Yoneda es densa (es decir, todo prehaz es límite de funtores representables, <span class="math inline">\(F= \varinjlim h_A\)</span>), la descripción <span class="math inline">\(Sub(-) \approx Nat (-, \Omega)\)</span> se extiende a todos los prehaces en el topos.</p>
+<p>La lógica interna de un topos se deriva de ciertas propiedades de exactitud en el topos. En principio, todo depende de mostrar que, para todo <span class="math inline">\(a\)</span> en el topos, <span class="math inline">\(0 \rightarrowtail a\)</span> es mono. Esto se deriva de los tres hechos siguientes (que valen en cualquier categoría cartesiana cerrada con objeto inicial <span class="math inline">\(0\)</span>): <em>(i)</em> <span class="math inline">\(a \times 0 \approx 0\)</span> (usando el hecho <span class="math inline">\(\mathcal{E}(a \times 0, b) \approx \mathcal{E}(0,b^{a})\)</span>, esto es, la propiedad exponencial, resulta que el único morfismo emergente de <span class="math inline">\(0\)</span> y el único morfismo emergente de <span class="math inline">\(a \times 0\)</span> fuerzan el isomorfismo con <span class="math inline">\(0\)</span>), <em>(ii)</em> si existe <span class="math inline">\(f:a \to 0\)</span> entonces <span class="math inline">\(a \approx 0\)</span> (por propiedades de proyección y composición en productos), <em>(iii)</em> toda flecha que entra en <span class="math inline">\(0\)</span> fuerza un isomorfismo (por <em>(ii)</em>), por tanto la flecha es mono.</p>
+<p>Tomando funciones características (<span class="math inline">\(\chi\)</span>) de monos (<span class="math inline">\(m\)</span>), provistas por pullbacks en el clasificador de subobjetos, gracias al hecho de que <span class="math inline">\(0 \rightarrowtail 1\)</span> es mono, podemos realizar una construcción natural de conectivos en el topos. Véanse en ese sentido los ítems <em>(1)-(5)</em> abajo, construidos recursivamente sobre cada mono emergente en cada nivel:</p>
+<ol type="1">
+<li><p><em>Falsedad</em>: <span class="math inline">\(\bot \ = \ \chi_{ 0 \rightarrowtail 1}\)</span></p></li>
+<li><p><em>Negación</em>: <span class="math inline">\(\neg \ = \ \chi_{ \bot}\)</span></p></li>
+<li><p><em>Conjunción</em>: <span class="math inline">\(\wedge \ = \ \chi_{ &lt;\top,\top&gt;}\)</span></p></li>
+<li><p><em>Implicación</em>: <span class="math inline">\(\Rightarrow \ = \ \chi_{ eq(\wedge, \pi_1)}\)</span></p></li>
+<li><p><em>Disyunción</em>: <span class="math inline">\(\vee \ = \ \chi_{ im[id \times \top, \top \times id]}\)</span>.</p></li>
+</ol>
+<p>Estas construcciones expresan, mediante morfimos, las construcciones usuales de conectivos como operadores sobre <span class="math inline">\(\{0,1\}\)</span>. Además, en todo topos tendremos siempre que <span class="math inline">\(Sub(\Omega)\)</span> es un álgebra de Heyting, lo que apunta a una lógica intuicionista subyacente. Puede probarse el hecho de que deducibilidad en el cálculo proposicional intuicionista es equivalente a validez en toda álgebra de Heyting, a su vez equivalente a validez en todo topos.</p>
+<p>Los haces se encuentran en la intersección de una multitud de conceptos matemáticos: variable compleja (procedente de la continuación analítica de Riemann), geometría diferencial (procedente de los trabajos de Leray en ecuaciones diferenciales), álgebra abstracta (procedente de las formalizaciones de la escuela francesa, vía Cartan, Lazard, Godement, Serre), geometría algebraica (procedente de los trabajos de Grothendieck en categorías abelianas, Riemann-Roch, esquemas, topos), lógica (procedente de las axiomatizaciones en primer orden de Lawvere, hasta la lógica de los haces de Caicedo), etc. Los haces constituyen por tanto un concepto realmente central y primordial para nuestro entendimiento actual del mundo matemático. En lo que sigue de este trabajo, pensaremos los gráficos existenciales como haces, no solo sobre el plano sino también sobre otras superficies de Riemann, y nos adentraremos en la colección (topos) de todos esos diversos haces de gráficos existenciales.</p>
+</section>
+<section id="visión-combinatoria---categórica" class="level1">
+<h1>Visión Combinatoria - Categórica</h1>
+<p>La ventaja de una lectura categórica de un tema matemático reside en la extensión del ámbito de posibilidades que ofrece la abstracción. En un topos elemental las nociones de localización, topologización y sistematización intuicionista coinciden. Así que, apuntando a una traducción estructural de nuestro sistema, que es la propuesta central de nuestro trabajo, apelamos a algunos desarrollos recientes de Gangle y colaboradores, cuyos aportes recientes permiten dar el último paso hacia una axiomatización consistente de nuestro modelo (Gangle <em>et.al.</em>, 2022)<a href="#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a>. El enfoque de Gangle provee una lectura combinatoria de los encajes de cortes <span class="math inline">\(Alfa\)</span> (modelo de la lógica clásica) vía árboles, una visión de árboles como prehaces, y un entrelazamiento de marcas estáticas y variables para capturar ocurrencias de letras proposicionales. Esto permite obtener una categoría de objetos que representan sintácticamente los gráficos existenciales <span class="math inline">\(Alfa\)</span>. Una notación lógica aguda, como los (GE), organiza relaciones entre las componentes de su sintaxis, de manera que las propiedades lógicas y las relaciones bajo una interpretación concreta, regida bajo reglas de tratamiento simples, sean precisas e inequívocas. La sintaxis diagramática ofrecida en el sistema de Peirce provee un entorno natural de distinción en las relaciones entre las combinaciones sintácticas de elementos en un argumento. Al reconstruir este razonamiento diagramático mediante una adecuada categoría de funtores (más precisamente, categoría de prehaces), podemos diversificar la riqueza de la estructura subyacente en el nivel <span class="math inline">\(Alfa\)</span>. Aquí, los morfismos obedecen a jerarquías en la estructura acorde al origen y destino de las flechas de los grafos dirigidos que representan nidos de cortes desde los (GE). Podemos ver cada elemento en la clase de estructuras como un funtor contravariante concreto que recoge relaciones entre cortes y los representa conjuntísticamente.</p>
+<p>De manera precisa (Gangle <em>et.al.</em>, 2022)<a href="#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a>, observan que los encajes (nidos) de cortes <span class="math inline">\(Alfa\)</span> se pueden poner en correspondencia (*) con árboles finitos, asociando un nodo a un corte, y una ramificación a un encaje (siguiendo el método endoporeutico). Un ejemplo de esta correspondencia (*) se observa en la figura siguiente:</p>
+<div class="center">
+
+</div>
+<p>&nbsp;</p>
+<p>Si <span class="math inline">\(\mathcal{C}_{(\mathbb{N}, \leq)}\)</span> denota la categoría correspondiente al conjunto ordenado <span class="math inline">\((\mathbb{N}, \leq)\)</span>, sea <span class="math inline">\(\mathcal{F} = Con^{\mathcal{C}_{(\mathbb{N}, \leq)}^{op}}\)</span> la categoría de prehaces asociada (“bosques"). Definimos una subcategoría <span class="math inline">\(\mathcal{E} \subseteq \mathcal{F}\)</span> cuyos objetos son los funtores <span class="math inline">\(F\)</span>: <span class="math inline">\({\mathcal{C}_{(\mathbb{N}, \leq)}^{op}}\)</span> <span class="math inline">\(\to\)</span> <span class="math inline">\(ConFin\)</span> (i.e., prehaces finitarios) que”terminan en finitos pasos" (i.e., para los cuales existe <span class="math inline">\(n\)</span>, con <span class="math inline">\(Fn=\emptyset\)</span>). Gracias a la correspondencia (*), <span class="math inline">\(\mathcal{E}\)</span> modela correctamente los encajes de cortes <span class="math inline">\(Alfa\)</span>. Los morfismos de <span class="math inline">\(\mathcal{E} = \mathcal{GE}_{\alpha^{*}}\)</span> son monos entre los mismos objetos en <span class="math inline">\(\mathcal{F}\)</span>.</p>
+<p>Yendo más allá, (Gangle <em>et.al.</em>, 2022, sección 4)<a href="#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a> reconstruye un gráfico <span class="math inline">\(Alfa\)</span> como un encaje de cortes con variables adicionales (“marcas"). Esta adición se obtiene mediante un nuevo funtor que registra esas apariciones de variables. Formalmente, si <span class="math inline">\(F \in \mathcal{E}\)</span> es un encaje de cortes, un gráfico”distinguido" <span class="math inline">\(Alfa\)</span> sobre el “esqueleto" <span class="math inline">\(F\)</span> (nuestra terminología) se define como un par <span class="math inline">\((F, \widehat{F})\)</span> donde <span class="math inline">\(F, \widehat{F} \in \mathcal{E}\)</span> son tales que <span class="math inline">\(F \rightarrowtail \widehat{F}\)</span> y se tiene una condición de iteración y control de encajes que captura la aparición de distintas letras proposicionales, las cuales se reemplazan por cortes <span class="math inline">\(Alfa\)</span> vacíos en las áreas donde aparecen las variables (= pseudografos, en la terminología de Peirce). Comparando los encajes resultantes de ambos procesos al ser pasados por el funtor <span class="math inline">\(\widehat{F}\)</span>, notamos que <span class="math inline">\(F\)</span> se inyecta canónicamente en <span class="math inline">\(\widehat{F}\)</span>. Así, podemos hacer corresponder un gráfico con marcas (letras o variables) a un par ordenado <span class="math inline">\((F, \widehat{F})\)</span>, con <span class="math inline">\(F\)</span> y <span class="math inline">\(\widehat{F}\)</span> gráficos de solo cortes, que se pueden describir como algún funtor de <span class="math inline">\(\mathcal{C}^{op}_{(\mathbb{N},\leq)}\)</span> en <span class="math inline">\(ConFin\)</span> tal que, para algún <span class="math inline">\(n\)</span>, su imagen sea no vacía. Para representar gráficos <span class="math inline">\(Alfa\)</span> a cabalidad (i.e.&nbsp;con repeticiones de eventuales letras), Gangle y colaboradores introducen una acción monoidal <span class="math inline">\(T\)</span> sobre los gráficos distinguidos (las órbitas dan lugar entonces a una identificación de letras). Esto finalmente da lugar a una categoría <span class="math inline">\(\mathcal{GE_{\alpha}}\)</span> formada por triplas <span class="math inline">\((F, \widehat{F}, T_{(F, \widehat{F})} )\)</span>, una construcción que captura plenamente, en lenguaje categórico, la sintaxis de los gráficos <span class="math inline">\(Alfa\)</span>.</p>
+</section>
+<section id="el-topos-de-gráficos-existenciales-alfa-sobre-superficies-de-riemann-tgesr" class="level1">
+<h1>El Topos de Gráficos Existenciales (<span class="math inline">\(Alfa\)</span>) sobre Superficies de Riemann (TGESR)</h1>
+<p>La construcción Gangle-Caterina-Tohme de <span class="math inline">\(\mathcal{G}\mathcal{E}_{\alpha}\)</span> se basa fuertemente en una propiedad de “normalidad" (nuestra terminología) de los encajes de cortes planares, es decir, donde una nivelación de áreas (con nociones bien definidas de paridad e imparidad) queda registrada. Esto corresponde a una ramificación de los árboles asociados: tanto los niveles (de los cortes), como las ramas (de los árboles), muestran una progresión creciente en los segmentos finitos de (<span class="math inline">\(\mathbb{N}, \leq\)</span>), indicadores de <span class="math inline">\(ConFin^{\mathcal{C}_{(\mathbb{N}, \leq)}^{op}}\)</span>. Sin embargo, la situación puede llegar a ser enteramente distinta en el caso de los gráficos (no planares) sobre (SR) generales. Un ejemplo de esto es cómo un doble corte sobre la esfera, representado por un árbol de tipo <span class="math inline">\(2\)</span>, puede ser deformado en dos cortes separados sobre la esfera, representados por un árbol de tipo <span class="math inline">\(1+1\)</span>. En tal caso, se pierden las nociones de progresión, nivelación, ramificación. Solo se preservan estas nociones en el caso de los sistemas restringidos a negaciones <em>locales</em>, y en ese caso las lógicas de <span class="math inline">\(\mathcal{GE}_{\alpha}\)</span> (GE sobre el plano) y <span class="math inline">\(\mathcal{GE_{SR}}\)</span> (GE sobre SR) coinciden.</p>
+<p>Gracias a las nociones de localidad/globalidad y de linealidad/no linealidad, el tránsito de los gráficos existenciales sobre el plano hacia gráficos existenciales sobre superficies de Riemann puede entenderse como un <em>tránsito complejo/diferencial/homológico entre lo local lineal y lo global no lineal</em>, que emerge naturalmente en ecuaciones diferenciales, variable compleja y teoría de haces. Aquí, por vez primera, se registra ese tránsito con herramientas lógicas y mediante propiedades puramente estructurales (generadores y adjunciones) de las categorías e inmersiones en juego.</p>
+<p>Para intentar describir entonces, en general, un entorno de (GE) sobre (SR), se debe modificar la construcción <span class="math inline">\(\mathcal{E}\)</span> formada por los prehaces finitarios <span class="math inline">\(F\)</span>: <span class="math inline">\({\mathcal{C}_{(\mathbb{N}, \leq)}^{op}}\)</span> <span class="math inline">\(\to\)</span> <span class="math inline">\(ConFin\)</span>. Los registros encajados de cortes capturados por el orden <span class="math inline">\((\mathbb{N}, \leq)\)</span> pueden no funcionar en (SR) generales, cuando aparecen negaciones (cortes) globales. Para permitir “deformaciones alternativas" que rompan la linealidad (y sus consecuentes: progresión, nivelación, ramificación), debe introducirse una nueva relación binaria <span class="math inline">\(R\)</span> sobre un conjunto <span class="math inline">\(\mathbb{A}\)</span> que no tiene por qué ser un orden de tipo lineal. La categoría de (GE) sobre (SR) surgiría entonces a partir de una nueva construcción formada por prehaces (no necesariamente finitarios) <span class="math inline">\(F\)</span>: <span class="math inline">\({\mathcal{C}_{(\mathbb{A}, R)}^{op}}\)</span> <span class="math inline">\(\to\)</span> <span class="math inline">\(Con\)</span>, donde las propiedades algebraicas de la relación <span class="math inline">\(R\)</span> captarían las propiedades lógicas de (GE) sobre (SR).</p>
+<p>La construcción combinatoria de la categoría <span class="math inline">\(\mathcal{G}\mathcal{E}_{\alpha}\)</span> (Gangle-Caterina-Tohme), y la visión conceptual de su eventual extensión <span class="math inline">\(\mathcal{G}\mathcal{E}_{SR}\)</span> a entornos de (SR) no planares (Zalamea-Hugueth), acentúan un carácter descriptivo extrínseco, para tratar de captar sintácticamente los (GE) mediante subfuntores de prehaces. Desde el punto de vista del entorno natural de los topos, en los que se sumergen esas construcciones, tenemos que:</p>
+<p><span class="math display">\[\mathcal{G}\mathcal{E}_{\alpha} \hookrightarrow ConFin^{\mathcal{C}_{(\mathbb{N}, \leq)}^{op}} \times ConFin^{\mathcal{C}_{(\mathbb{N}, \leq)}^{op}} \times Con^{T} \ \ (*)\]</span></p>
+<p>donde las tres categorías de la derecha son topos de prehaces. Similarmente, se tendría otra inmersión para el caso de nuestra propuesta:</p>
+<p><span class="math display">\[\mathcal{G}\mathcal{E}_{SR} \hookrightarrow Con^{\mathcal{C}_{(\mathbb{A}, R)}^{op}} \times Con^{\mathcal{C}_{(\mathbb{A}, R)}^{op}} \times Con^{T} \ \ (**)\]</span></p>
+<p>donde las tres categorías de la derecha son topos de prehaces.</p>
+<p>Un estudio intrínseco de los (GE), sobre el plano o sobre (SR) arbitrarias, debería poder caracterizar <span class="math inline">\(\mathcal{GE}_{\alpha}\)</span> y <span class="math inline">\(\mathcal{GE}_{SR}\)</span>. En ese sentido, postulamos que la construcción general corresponde a un <strong>topos intermedio</strong> <span class="math inline">\(T(GESR)\)</span> asociado Gráficos Existenciales sobre Superficies de Riemann (cerrado bajo límites y exponenciales), tal que tengamos una inyección del sistema lógico en el topos, descrito por un producto universal no lineal de categorías (topos de prehaces no necesariamente finitarios). Aquí aparecería una acción algebraica <span class="math inline">\(T\)</span>, no necesariamente lineal, que permitiría deformaciones necesarias para preservar la nivelación, progresión y ramificación en la nivelación de los gráficos, a diferencia del topos de los gráficos <span class="math inline">\(Alfa\)</span> sobre el plano, descrito bajo el topos del producto universal lineal de conjuntos finitos. En esta configuración general, podemos ofrecer la siguiente conjetura:</p>
+<div class="conjecture">
+<p><strong>Conjetura 2</strong> (Zalamea-Hugueth).</p>
+<ul>
+<li><p><em>Existe un topos intermedio <span class="math inline">\(T(GESR)\)</span> asociado a la categoría <span class="math inline">\(\mathcal{G}\mathcal{E}_{SR}\)</span>, tal que se tenga <span class="math inline">\(\mathcal{G}\mathcal{E}_{SR} \hookrightarrow T(GESR) \hookrightarrow Con^{\mathcal{C}_{(\mathbb{A}, R)}^{op}} \times Con^{\mathcal{C}_{(\mathbb{A}, R)}^{op}} \times Con^{T}\)</span>. <span class="math inline">\(T(GESR)\)</span> caracteriza la categoría de gráficos sobre superficies de Riemann. El topos puede ser el “topos generado" por <span class="math inline">\(\mathcal{G}\mathcal{E}_{SR}\)</span> (clausura bajo límites y exponenciales) dentro del topos producto”universal no lineal" <span class="math inline">\(Con^{\mathcal{C}_{(\mathbb{A}, R)}^{op}} \times Con^{\mathcal{C}_{(\mathbb{A}, R)}^{op}} \times Con^{T}\)</span>.</em></p></li>
+<li><p><em>El <strong>clasificador</strong> de <span class="math inline">\(T(GESR)\)</span>, a describir vía productos y Yoneda (prehaces y subfuntores ideales de un monoide), codifica la lógica de los (GE) sobre (SR).</em></p></li>
+<li><p><em>Las lógicas locales y globales sobre una (SR) se pueden caracterizar mediante propiedades de exactitud en el topos <span class="math inline">\(T(GESR)\)</span>.</em></p></li>
+<li><p><em>En el caso de los gráficos sobre el plano, se obtendría un topos <span class="math inline">\(T(GE_{\alpha})\)</span> generado por <span class="math inline">\(\mathcal{G}\mathcal{E}_{\alpha}\)</span> dentro del topos producto “universal lineal" <span class="math inline">\(ConFin^{\mathcal{C}_{(\mathbb{N}, \leq)}^{op}} \times ConFin^{\mathcal{C}_{(\mathbb{N}, \leq)}^{op}} \times Con^{T}\)</span>.</em></p></li>
+</ul>
+</div>
+<p>Explorando la situación más a fondo, cabe esperar que las lógicas locales y globales sobre (SR) puedan capturarse a través de buenas propiedades del <strong>grupo fundamental</strong> (GF) asociado, que emerja en el topos. De este modo, las relaciones entre el género de (SR), las propiedades homológicas/homotópicas del grupo fundamental (GF), las propiedades lógicas internas del clasificador (T), y las características locales/globales de las lógicas externas implicadas (GE), proporcionarían nuevos y profundos puentes entre muchas áreas centrales de las matemáticas (álgebra, categorías, geometría compleja, lógica, topología), ofreciendo un terreno fértil para futuras investigaciones.</p>
+<!-- #  {#section .unnumbered} -->
+</section>
+<section id="referencias" class="level1 unnumbered">
+<h1 class="unnumbered">Referencias</h1>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Ahlfors1953" class="csl-entry" role="listitem">
+Ahlfors, Lars. 1953. <em>Complex Analysis</em>. New York: McGraw-Hill.
+</div>
+<div id="ref-Gangle" class="csl-entry" role="listitem">
+Gangle, Rocco, Gianluca Caterina, y Fernando Tohme. 2022. <span>«A Generic Figures Reconstruction of Peirce’s Existential Graphs (Alpha)»</span>. <em>Erkenntnis</em> 87: 623-56.
+</div>
+<div id="ref-Kumaresan" class="csl-entry" role="listitem">
+Kumaresan, S. 2002. <em>A Course in Differential Geometry and Lie Groups</em>. New Delhi: Hindustan Book Agency.
+</div>
+<div id="ref-maclane2" class="csl-entry" role="listitem">
+Mac Lane, S., y I. Moerdijk. 1992. <em>Sheaves in Geometry and Logic. A First Introduction to Topos Theory</em>. New York: Springer-Verlag.
+</div>
+<div id="ref-Needham1997" class="csl-entry" role="listitem">
+Needham, Tristan. 1997. <em>Visual Complex Analysis</em>. London: Clarendon Press.
+</div>
+<div id="ref-oostra10" class="csl-entry" role="listitem">
+Oostra, Arnold. 2010. <span>«<span>Los gráficos Alfa de Peirce aplicados a la lógica intuicionista</span>»</span>. <em>Cuadernos de Sistemática Peirceana</em> 2: 25-60.
+</div>
+<div id="ref-OostraLibro" class="csl-entry" role="listitem">
+———. 2018. <em><span>Notas de lógica matemática</span></em>. Ibagué: Universidad del Tolima.
+</div>
+<div id="ref-OostraAPM" class="csl-entry" role="listitem">
+———. 2022. <span>«Intuitionistic and Geometrical Extensions of Peirce’s Existential Graphs»</span>. En <em>Advances in Peirce Mathematics. The Colombian School</em>, editado por Fernando Zalamea. Berlin: De Gruyter.
+</div>
+<div id="ref-Pietarinen2004" class="csl-entry" role="listitem">
+Pietarinen, Ahti-Veikko. 2004. <span>«The Endoporeutic Method»</span>. En <em>The Commens Encyclopedia: The Digital Encyclopedia of Peirce Studies</em>, editado por M. Bergman y J. Queiroz. Commens.
+</div>
+<div id="ref-Roberts2" class="csl-entry" role="listitem">
+Roberts, Don D. 1963. <span>«The Existential Graphs of Charles S. Peirce»</span>. Tesis doctoral, Urbana-Champaign: University of Illinois.
+</div>
+<div id="ref-Roberts1992" class="csl-entry" role="listitem">
+———. 1992. <span>«The Existential Graphs»</span>. <em>Computers Math. Applic.</em> 23 (6-9): 639-63.
+</div>
+<div id="ref-Tarski1938" class="csl-entry" role="listitem">
+Tarski, Alfred. 1938. <span>«Der Aussagenkalkul und die Topologie»</span>. <em>Fundamenta Mathematicae</em>, 103-34.
+</div>
+<div id="ref-Zal30" class="csl-entry" role="listitem">
+Zalamea, Fernando. 2020a. <span>«Categorías. Notas de Curso»</span>. Universidad Nacional de Colombia. Agosto-Diciembre.
+</div>
+<div id="ref-ZalUnif" class="csl-entry" role="listitem">
+———. 2020b. <span>«Seminario de Filosofía Matemática. El Teorema de Uniformización de Riemann»</span>. Bogotá: Universidad Nacional de Colombia.
+</div>
+<div id="ref-Zal12" class="csl-entry" role="listitem">
+———. 2022. <em>Modelos en haces para el pensamiento matem<span>á</span>tico</em>. Bogotá: Editorial Universidad Nacional de Colombia.
+</div>
+<div id="ref-Zeman1" class="csl-entry" role="listitem">
+Zeman, Jay J. 1964. <span>«The Graphical Logic of C. S. Peirce»</span>. Tesis doctoral, Chicago: University of Chicago.
+</div>
+</div>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Esta es una muestra de mi Tesis de Pregrado, “Topos de Gráficos Existenciales sobre Superficies de Riemann", Departamento de Matemáticas, Universidad Nacional de Colombia, Sede Bogotá, 2022, 108 pp., bajo la orientación de Fernando Zalamea, a quien agradezco el respaldo en la construcción, discusión y corrección del trabajo.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><span class="citation" data-cites="Roberts1992">(<a href="#ref-Roberts1992" role="doc-biblioref">Roberts 1992</a>)</span>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><span class="citation" data-cites="Roberts2">(<a href="#ref-Roberts2" role="doc-biblioref">Roberts 1963</a>)</span>.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p><span class="citation" data-cites="Zeman1">(<a href="#ref-Zeman1" role="doc-biblioref">Zeman 1964</a>)</span>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><span class="citation" data-cites="oostra10">(<a href="#ref-oostra10" role="doc-biblioref">Oostra 2010</a>)</span>.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p><span class="citation" data-cites="Tarski1938">(<a href="#ref-Tarski1938" role="doc-biblioref">Tarski 1938</a>)</span>.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p><span class="citation" data-cites="Pietarinen2004">(<a href="#ref-Pietarinen2004" role="doc-biblioref">Pietarinen 2004</a>)</span>.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p><span class="citation" data-cites="OostraLibro">(<a href="#ref-OostraLibro" role="doc-biblioref">Oostra 2018</a>)</span>.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p><span class="citation" data-cites="OostraAPM">(<a href="#ref-OostraAPM" role="doc-biblioref">Oostra 2022</a>)</span>.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p><span class="citation" data-cites="OostraLibro">(<a href="#ref-OostraLibro" role="doc-biblioref">Oostra 2018</a>)</span>.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p><span class="citation" data-cites="ZalUnif">(<a href="#ref-ZalUnif" role="doc-biblioref">Zalamea 2020b</a>)</span>.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p><span class="citation" data-cites="Zal12">(<a href="#ref-Zal12" role="doc-biblioref">Zalamea 2022</a>)</span>.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p><span class="citation" data-cites="Needham1997">(<a href="#ref-Needham1997" role="doc-biblioref">Needham 1997</a>)</span>.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p><span class="citation" data-cites="Kumaresan">(<a href="#ref-Kumaresan" role="doc-biblioref">Kumaresan 2002</a>)</span><a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p><span class="citation" data-cites="Ahlfors1953">(<a href="#ref-Ahlfors1953" role="doc-biblioref">Ahlfors 1953</a>)</span>.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p><span class="citation" data-cites="maclane2">(<a href="#ref-maclane2" role="doc-biblioref">Mac Lane y Moerdijk 1992</a>)</span><a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p><span class="citation" data-cites="Zal30">(<a href="#ref-Zal30" role="doc-biblioref">Zalamea 2020a</a>)</span><a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p><span class="citation" data-cites="maclane2">(<a href="#ref-maclane2" role="doc-biblioref">Mac Lane y Moerdijk 1992</a>)</span>.<a href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p><span class="citation" data-cites="Gangle">(<a href="#ref-Gangle" role="doc-biblioref">Gangle, Caterina, y Tohme 2022</a>)</span><a href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p><span class="citation" data-cites="Gangle">(<a href="#ref-Gangle" role="doc-biblioref">Gangle, Caterina, y Tohme 2022</a>)</span><a href="#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn21"><p><span class="citation" data-cites="Gangle">(<a href="#ref-Gangle" role="doc-biblioref">Gangle, Caterina, y Tohme 2022</a>)</span>.<a href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+<p>Esta página es distribuida por la Universidad de Navarra y el GEP <a href="https://www.unav.es/gep/" class="uri">https://www.unav.es/gep/</a></p></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiado");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiado");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./gavriloff.html" class="pagination-link" aria-label="¿Qué es la hoja de aseveración?">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">¿Qué es la hoja de aseveración?</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./lucifora.html" class="pagination-link" aria-label="El impacto de la inteligencia artificial en la semiosis humana desde la teoría de Peirce">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">El impacto de la inteligencia artificial en la semiosis humana desde la teoría de Peirce</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
